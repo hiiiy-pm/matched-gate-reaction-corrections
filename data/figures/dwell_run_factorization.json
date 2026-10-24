@@ -1,0 +1,112 @@
+{
+  "run_lengths_in_matrix_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "boundary_count_A": [
+    [
+      4,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "boundary_count_B": [
+    [
+      4,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "boundary_count_A_minus_B": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      1
+    ]
+  ],
+  "reactive_exit_edge_count": 10,
+  "shared_boundary_pairing_count": 8,
+  "joint_run_mixture_formula": "f_R(t,u)=sum_m,l N_R(m,l) q_m(t) q_l(u)/10",
+  "factorization_formula": "f_A(t,u)-f_B(t,u)=(q_2(t)-q_4(t))*(q_2(u)-q_4(u))/10",
+  "q1_density": "exp(-t)",
+  "q2_density": "exp(-t/2)/2",
+  "q4_density": "(1-1/sqrt(5))*exp(-(3-sqrt(5))*t/4)/4 + (1+1/sqrt(5))*exp(-(3+sqrt(5))*t/4)/4",
+  "q1_laplace": "1/(z + 1)",
+  "q2_laplace": "1/(2*z + 1)",
+  "q4_laplace": "(2*z + 1)/(4*z**2 + 6*z + 1)",
+  "common_dwell_laplace": "(32*z**3 + 66*z**2 + 36*z + 5)/(5*(z + 1)*(2*z + 1)*(4*z**2 + 6*z + 1))",
+  "joint_laplace_1_1_difference_exact": "2/5445",
+  "full_bivariate_resolvent_J_A": "(208*a**3*b**3 + 428*a**3*b**2 + 232*a**3*b + 32*a**3 + 428*a**2*b**3 + 882*a**2*b**2 + 479*a**2*b + 66*a**2 + 232*a*b**3 + 479*a*b**2 + 261*a*b + 36*a + 32*b**3 + 66*b**2 + 36*b + 5)/(5*(a + 1)*(2*a + 1)*(b + 1)*(2*b + 1)*(4*a**2 + 6*a + 1)*(4*b**2 + 6*b + 1))",
+  "full_bivariate_resolvent_J_B": "(208*a**3*b**3 + 428*a**3*b**2 + 232*a**3*b + 32*a**3 + 428*a**2*b**3 + 880*a**2*b**2 + 477*a**2*b + 66*a**2 + 232*a*b**3 + 477*a*b**2 + 259*a*b + 36*a + 32*b**3 + 66*b**2 + 36*b + 5)/(5*(a + 1)*(2*a + 1)*(b + 1)*(2*b + 1)*(4*a**2 + 6*a + 1)*(4*b**2 + 6*b + 1))",
+  "full_bivariate_resolvent_difference": "2*a*b/(5*(2*a + 1)*(2*b + 1)*(4*a**2 + 6*a + 1)*(4*b**2 + 6*b + 1))",
+  "factorized_bivariate_resolvent_difference": "2*a*b/(5*(2*a + 1)*(2*b + 1)*(4*a**2 + 6*a + 1)*(4*b**2 + 6*b + 1))",
+  "full_bivariate_resolvent_identity_exact": true,
+  "positive_zero_of_q2_minus_q4_float": 4.073415237530655,
+  "zero_uniqueness_argument": "exp(t/2)*(q2-q4) is strictly concave, equals zero at t=0, has positive derivative at t=0, and tends to minus infinity.",
+  "joint_mixture_vs_full_subgenerator_max_error": {
+    "A": 2.220446049250313e-16,
+    "B": 2.220446049250313e-16
+  },
+  "rank_one_factorization_max_error": 1.3662980252390766e-16,
+  "marginal_cancellation": "Each q_m integrates to one, so integral(q_2-q_4)=0 exactly.",
+  "scope": "Exact identity for the principal C18_0064 pair, not a general reaction-coefficient decomposition."
+}

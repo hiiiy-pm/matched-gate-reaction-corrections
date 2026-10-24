@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Burzomato et al. 2004 original article",
+    "doi": "10.1523/JNEUROSCI.3424-04.2004",
+    "url": "https://onemol.org.uk/burzomato-2004.pdf",
+    "sha256": "21313a7941ffb9983c6b9931105395100ed81cf4e85c40345893e36073752e20"
+  },
+  {
+    "title": "HJCFIT experimental example",
+    "url": "https://dcprogs.github.io/HJCFIT/notebooks/Example_MLL_Fit_GlyR_4patches.html",
+    "commit": "da52b1255ef066a9368e0311f19dbdceeaa136cb"
+  },
+  {
+    "title": "MscL ionChannelData documentation",
+    "url": "https://rolfturner.r-universe.dev/ionChannelData/doc/manual.html"
+  },
+  {
+    "title": "NaV1.5 data archive",
+    "url": "https://zenodo.org/records/7817601",
+    "snapshot": "data/experimental_sources/zenodo_7817601_metadata.json",
+    "use": "protocol review only; excluded before prediction analysis"
+  }
+]

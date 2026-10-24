@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite this version of the research materials."
+type: dataset
+title: 'Data and code for "Distinct reaction corrections for gates with matched three-time and three-duration laws"'
+authors:
+  - family-names: Huang
+    given-names: Yongye
+    affiliation: 'School of Mathematics and Statistics, Hanshan Normal University, China'
+  - family-names: Yang
+    given-names: Xiaopeng
+    affiliation: 'School of Mathematics and Statistics, Hanshan Normal University, China'
+  - family-names: Wang
+    given-names: Zhining
+    affiliation: 'School of Mathematics and Statistics, Hanshan Normal University, China'
+version: 1.0.0
+date-released: '2026-10-24'
+repository-code: 'https://github.com/hiiiy-pm/matched-gate-reaction-corrections'
+url: 'https://github.com/hiiiy-pm/matched-gate-reaction-corrections'
+abstract: 'Exact gate models, continuous interval certificates, numerical solvers, source data, experimental-record analysis, and figures for the associated manuscript.'
+keywords:
+  - stochastic processes
+  - reaction kinetics
+  - interval arithmetic
+  - reproducible research

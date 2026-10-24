@@ -1,0 +1,203 @@
+{
+  "complete": true,
+  "polynomial_certificates": [
+    {
+      "seed": "C18_0189",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "orders_per_duration": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "starting_colors": 2,
+      "polynomial_degree_bound": 28,
+      "all_exact_equal": true,
+      "common_killed_characteristic_polynomial_reason": "Same path-run inventory; similarity by a permutation fixing ones also preserves the reset rank-one term.",
+      "implication": "Polynomial identity plus Cayley-Hamilton gives complete three-duration laws for every theta>=0, not only the sampled transforms."
+    },
+    {
+      "seed": "C18_0220",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "orders_per_duration": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "starting_colors": 2,
+      "polynomial_degree_bound": 28,
+      "all_exact_equal": true,
+      "common_killed_characteristic_polynomial_reason": "Same path-run inventory; similarity by a permutation fixing ones also preserves the reset rank-one term.",
+      "implication": "Polynomial identity plus Cayley-Hamilton gives complete three-duration laws for every theta>=0, not only the sampled transforms."
+    }
+  ],
+  "second_seed_full_duration_hierarchy": [
+    {
+      "durations": 1,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": true
+    },
+    {
+      "durations": 2,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": true
+    },
+    {
+      "durations": 3,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": true
+    },
+    {
+      "durations": 4,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": true
+    },
+    {
+      "durations": 5,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": true
+    },
+    {
+      "durations": 6,
+      "derivative_orders": [
+        0,
+        1,
+        2
+      ],
+      "both_colors_equal": false
+    }
+  ],
+  "second_seed_six_duration_probe": [
+    "687195503/14024807596800",
+    "687198979/14024807596800"
+  ],
+  "second_seed_six_duration_gap": "-79/318745627200",
+  "pair_ii_single_duration_transform": "(14*z**3 + 37*z**2 + 26*z + 5)/(5*(z + 1)*(2*z + 1)*(2*z**2 + 4*z + 1))",
+  "pair_ii_censored_single_transform_H": "(18*z**3 + 53*z**2 + 44*z + 10)/(9*(z + 1)*(2*z + 1)*(2*z**2 + 4*z + 1))",
+  "pair_ii_four_duration_diagonal_gap": "z**2*(4*z + 7)/(40*(z + 1)**2*(2*z + 1)**2*(2*z + 3)**2*(2*z**2 + 4*z + 1)**2)",
+  "four_duration_reset_checks": [
+    {
+      "theta": "0",
+      "four_duration_gap_at_all_one": "11/1764000",
+      "reset_transfer_identity_exact": true
+    },
+    {
+      "theta": "1/1000",
+      "four_duration_gap_at_all_one": "98442959200876468396800000000000000000/15916259021618943002471882794645205195010721",
+      "reset_transfer_identity_exact": true
+    },
+    {
+      "theta": "1/100",
+      "four_duration_gap_at_all_one": "161446401868608000000000/28084322094406607234379946921",
+      "reset_transfer_identity_exact": true
+    },
+    {
+      "theta": "1/10",
+      "four_duration_gap_at_all_one": "2518522605520128/877643896972920517145",
+      "reset_transfer_identity_exact": true
+    },
+    {
+      "theta": "1",
+      "four_duration_gap_at_all_one": "39607766289/1645078724212043776",
+      "reset_transfer_identity_exact": true
+    },
+    {
+      "theta": "10",
+      "four_duration_gap_at_all_one": "8441897238279/265514716100081144327822500",
+      "reset_transfer_identity_exact": true
+    }
+  ],
+  "elapsed_seconds": 7.960191499994835,
+  "source_sha256": "67c28688cef52e1f8c711488e36802bb28dd2ec09fe0c4547f35fc3704eb7c78"
+}

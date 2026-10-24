@@ -1,0 +1,256 @@
+{
+  "status": "FRESH_FULL_CONTINUOUS_PIPELINE_COMBINED",
+  "created_utc": "2026-10-20T13:51:34.449213+00:00",
+  "scope": "Fresh CG trials, Fourier enclosures, exact-target derivatives and local/geometry integrals at this rate.",
+  "contract": "Conditional on the stated analytic inequalities and enclosing arithmetic; not proof-assistant verification.",
+  "no_archived_numeric_certificate_inputs": true,
+  "gamma": 2560000,
+  "precision_bits": 256,
+  "combiner_sha256": "01804a341ee4daa1aac8d2f46e41d03c76f7c90c731a2c9069e2e2fd86685b6f",
+  "all_one_percent": true,
+  "rows": [
+    {
+      "pair": "C18_0064",
+      "gamma": 2560000,
+      "gamma_exact_integer": 2560000,
+      "alpha": "1.999",
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801575782539591",
+        "upper_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801581686170441"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662827658461926982857417766794841593797114556339475366364411001995904371142385817558",
+            "upper_decimal": "0.1662827658492386229161527728550843061644569034372362348328522330120904371142385817559"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "4.926901274047603173138380106551476172786330224500988457944550995889348987688504446089E-11",
+            "upper_decimal": "4.926901274047603173138380106551476172786330224500988457944550995889348987688504446090E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993089784344626338742294398397388480897282905951334418331051037690118278426191560881",
+            "upper_decimal": "2.993089785286295213563238922059935479718481846228434027706051037690118278426191560882"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0064_N65536_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0064_N65536_K524288_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662827941231438399951337680349939379735966157179088249166293289604823257832301689197",
+            "upper_decimal": "0.1662827941261897646323210277886284874708886435266346588094515945854823257832301689198"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "4.934023166043746000000000054620566194947402399301585796132683397097369593087313889383E-11",
+            "upper_decimal": "4.934023166043746000000000054620566194947402399301585796132683397097369593087313889384E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993090293328464947641927710243978590637665002936814102441335590261740358359290893033",
+            "upper_decimal": "2.993090294271415765764384334581225057531367748374436172753835590261740358359290893034"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0064_N65536_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0064_N65536_K524288_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "-5.099267894270220899361838365766340848424231017544227845525716220799331267144565374026E-7",
+        "upper_decimal": "-5.080421697340786887881840431109191831567083800747352845525716220799331267144565374025E-7"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "-5.099267894270220899361838365766340848424231017544227845525716220799331267144565374026E-7",
+        "upper_decimal": "-5.080421697340786887881840431109191831567083800747352845525716220799331267144565374025E-7"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "-0.0051452981206239201128482818603515625",
+        "upper_decimal": "-0.0051262817651149816811084747314453125"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "-0.0051452981206239201128482818603515625",
+        "upper_decimal": "-0.0051262817651149816811084747314453125"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "-0.005133621543750749318763148195573931821806363410643103904336281454949999999999944492806",
+        "upper_decimal": "-0.005126378574504159027031157321760302671415738410643103904336281454949999999999944492805"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.3690632996149361133575439453125",
+        "upper_decimal": "0.3690632996149361133575439453125"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.3690632996149361133575439453125",
+        "upper_decimal": "0.3690632996149361133575439453125"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.29887389414943754673004150390625",
+        "upper_decimal": "0.29887389414943754673004150390625"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": -0.0051299660209977215
+    },
+    {
+      "pair": "C18_0189",
+      "gamma": 2560000,
+      "gamma_exact_integer": 2560000,
+      "alpha": "1.999",
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801575782539591",
+        "upper_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801581686170441"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662771953023538499963119273579721821801425052844355945147469810763141140341737366845",
+            "upper_decimal": "0.1662771953053997800036880727038708813705991874020914678133920006075641140341737366846"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "2.808797332929481400000000044955776100923252529889933739342000881135901066074102617789E-12",
+            "upper_decimal": "2.808797332929481400000000044955776100923252529889933739342000881135901066074102617790E-12"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.992989515391810947876466857124439451126373504896874336402014869000826044684839347519",
+            "upper_decimal": "2.992989515497196040130802478788735691977772993643994239966467994000826044684839347520"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662771882427403199970266883277752701314121952795750669640284513661754317581635563476",
+            "upper_decimal": "0.1662771882457862449052644912027859281305674233057863287132960294911754317581635563477"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "2.809157004382974401762916447055053885009459694997386089078886192880524160257380263206E-12",
+            "upper_decimal": "2.809157004382974401762916447055053885009459694997386089078886192880524160257380263207E-12"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.992989388318760933713331541493285358372047257343174061414186040414447795910936318939",
+            "upper_decimal": "2.992989388424152408449016150825083714296594907263160786267701665414447795910936318940"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "1.269676585394274507062993557368297785976337135501343132035863782487738848539086536884E-7",
+        "upper_decimal": "1.271784351064174709372954503336057257363008201785522819535863782487738848539086536885E-7"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "1.269676585394274507062993557368297785976337135501343132035863782487738848539086536884E-7",
+        "upper_decimal": "1.271784351064174709372954503336057257363008201785522819535863782487738848539086536885E-7"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "0.0012811377309844829142093658447265625",
+        "upper_decimal": "0.00128326453341287560760974884033203125"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "0.0012811377309844829142093658447265625",
+        "upper_decimal": "0.00128326453341287560760974884033203125"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.001278199233115703789123783261555508529369167029105604435531484523500000000000005152743",
+        "upper_decimal": "0.001283224641606825441456150637048558150951198279105604435531484523500000000000005152744"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.3962847408838570117950439453125",
+        "upper_decimal": "0.3962847408838570117950439453125"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.3962847408838570117950439453125",
+        "upper_decimal": "0.3962847408838570117950439453125"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.200528837856836616992950439453125",
+        "upper_decimal": "0.200528837856836616992950439453125"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": 0.001280696375163588
+    },
+    {
+      "pair": "C20_0201",
+      "gamma": 2560000,
+      "gamma_exact_integer": 2560000,
+      "alpha": "1.997",
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.00009837545383760803336007961148008618052114822638673008680232455024135474126184063317250",
+        "upper_decimal": "0.00009837545383760803336007961148008618052114822638673008680232455024135474126190177792058"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1497749264646410499967314048004791763098328306479025545661087903681618627160784069202",
+            "upper_decimal": "0.1497749264678649200032686011398370743215455081918854179923172864619118627160784069203"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.279330551272445800000000026574779024201337322760219855493144269526373940637512641434E-10",
+            "upper_decimal": "1.279330551272445800000000026574779024201337322760219855493144269526373940637512641435E-10"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.995498526734159892748026477783908678557091942016366621574040912807592984795140418373",
+            "upper_decimal": "2.995498529357298404707082041022416280920916786376718184074040912807592984795140418374"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C20_0201_N65536_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C20_0201_N65536_K524288_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1497748751398167699967430756118800871595501587006660226819576564594171941280347149438",
+            "upper_decimal": "0.1497748751430406644079935482421393544077707258264930967328609767719171941280347149439"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.287888738196738103770088000529634306981171943874733986649648857965300141614748880774E-10",
+            "upper_decimal": "1.287888738196738103770088000529634306981171943874733986649648857965300141614748880775E-10"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.995497500220557921599468129623476132164115967810072570585952345663695024595312237625",
+            "upper_decimal": "2.995497502860813290101788139916736698123033108770765929960952345663695024595312237626"
+          },
+          "energy_file": "code/models/finite_rate/current_rate_certification/solver/C20_0201_N65536_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C20_0201_N65536_K524288_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "0.000001023873346602646238337867171980434058833245600691613088567143897960199800040492399505",
+        "upper_decimal": "0.000001029136740483107613911398940148756800818566645613488088567143897960199800040492399506"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "0.000001023873346602646238337867171980434058833245600691613088567143897960199800040492399505",
+        "upper_decimal": "0.000001029136740483107613911398940148756800818566645613488088567143897960199800040492399506"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "0.01040781315532512962818145751953125",
+        "upper_decimal": "0.01046131635666824877262115478515625"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "0.01040781315532512962818145751953125",
+        "upper_decimal": "0.01046131635666824877262115478515625"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.01039117401098846660674294100909088636401929462177227630511134246699999999999997960746",
+        "upper_decimal": "0.01045463637542579438517545925288055921558179462177227630511134246699999999999997960747"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.675019343383610248565673828125",
+        "upper_decimal": "0.675019343383610248565673828125"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.675019343383610248565673828125",
+        "upper_decimal": "0.675019343383610248565673828125"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.3747286279685795307159423828125",
+        "upper_decimal": "0.3747286279685795307159423828125"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": 0.010422261233329492
+    }
+  ]
+}

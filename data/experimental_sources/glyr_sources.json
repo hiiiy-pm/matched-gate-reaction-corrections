@@ -1,0 +1,44 @@
+{
+  "commit": "da52b1255ef066a9368e0311f19dbdceeaa136cb",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "bytes": 35147
+    },
+    {
+      "file": "data/experimental/raw/glyr/A-10.scn",
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/samples/glydemo/A-10.scn",
+      "sha256": "093639138f302614742fda8fef4c39d81586e90d731636ee757a5c0690cc78d3",
+      "bytes": 182879
+    },
+    {
+      "file": "data/experimental/raw/glyr/B-30.scn",
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/samples/glydemo/B-30.scn",
+      "sha256": "12cb32d1e92dc407b7c2b5e1d1dd1c465dcae58d0bff02d693c14afc2e838533",
+      "bytes": 216131
+    },
+    {
+      "file": "data/experimental/raw/glyr/C-100.scn",
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/samples/glydemo/C-100.scn",
+      "sha256": "f8bfcfc46d35f8a525c293b01f2c857f34bbeb3f7fa76c148d0a8b6fdfba1465",
+      "bytes": 206196
+    },
+    {
+      "file": "data/experimental/raw/glyr/D-1000.scn",
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/samples/glydemo/D-1000.scn",
+      "sha256": "0bacbb7534115790587e305c1624f35019892bbe37cfc495059f036cd5966e45",
+      "bytes": 170413
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/screcord.py",
+      "sha256": "76ce1085f991a4ac8d701fe80defb4b748c4d6214c2d3602e818bdecd5671c59",
+      "bytes": 6910
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DCPROGS/HJCFIT/da52b1255ef066a9368e0311f19dbdceeaa136cb/exploration/Example_MLL_Fit_GlyR_4patches.ipynb",
+      "sha256": "83f581a26efb41408f1f7b9772294bd0b3aaced2494d02f7587b164eaf2e9f84",
+      "bytes": 379962
+    }
+  ]
+}

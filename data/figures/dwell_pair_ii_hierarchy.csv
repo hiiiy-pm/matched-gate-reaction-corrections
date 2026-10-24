@@ -1,0 +1,9 @@
+duration_count,starting_state,complete_law_equal,A_transform_at_ones,B_transform_at_ones,A_minus_B_at_ones
+1,open,True,41/105,41/105,0
+1,closed,True,41/105,41/105,0
+2,open,True,193/1260,193/1260,0
+2,closed,True,193/1260,193/1260,0
+3,open,True,129811/2116800,129811/2116800,0
+3,closed,True,129811/2116800,129811/2116800,0
+4,open,False,1571933/63504000,1571537/63504000,11/1764000
+4,closed,False,1571933/63504000,1571537/63504000,11/1764000

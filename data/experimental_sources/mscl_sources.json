@@ -1,0 +1,87 @@
+{
+  "retrieved_utc": "2026-10-21T03:32:20.771655+00:00",
+  "commit": "116952a6f533e8c51f8c45fd37be5fbdfc09255c",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/DESCRIPTION",
+      "bytes": 428,
+      "git_blob": "e378519b631a35bf47eec688fd65cdaf28739a71",
+      "sha256": "bd041f33928eb6066ac913cd6f989b3322550d421df7dc0f780a0c9d3c0808b5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/LICENSE",
+      "bytes": 35149,
+      "git_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/README.md",
+      "bytes": 1781,
+      "git_blob": "ab15637717635e4d0dae6cfab5be25c5dc421013",
+      "sha256": "9d1ca778d3c7e05ec92e0d2022d0fb917669dfa4a2fb4881bb7fbe13bc3c06bd"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic25kHz_12_sgmnt1.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic25kHz_12_sgmnt1.rda",
+      "bytes": 329160,
+      "git_blob": "371b80308194b79468e91f263dd6a0809619a1f3",
+      "sha256": "bf079ba35140b24cd044d2cd4b417d1458af5a86773af4da1cb4c832c9682c2a"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic25kHz_13_sgmnt2.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic25kHz_13_sgmnt2.rda",
+      "bytes": 351196,
+      "git_blob": "401b05798294b9781d2d65fd0b3c0cebc00510dd",
+      "sha256": "72ac7d94d47711d326cd25192059d90aaa337d89394352b06ce2ca9df87b3b06"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic25kHz_14_sgmnt2.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic25kHz_14_sgmnt2.rda",
+      "bytes": 327180,
+      "git_blob": "e046d6805c481291c411a0c5c22aeb2c4c589555",
+      "sha256": "db7c89725008db93c9b49d7e8228a45f0bcd5b7382f5ffef155133184a2577ec"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic25kHz_15_sgmnt2.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic25kHz_15_sgmnt2.rda",
+      "bytes": 343976,
+      "git_blob": "9c2b428764f5599560472f11b6cefa3dda1b3cd8",
+      "sha256": "0404451e5aa89f74aca68a635ca2407cc7ddb8811d58e0b628abb16fffd05051"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic50kHz_06_sgmnt2.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic50kHz_06_sgmnt2.rda",
+      "bytes": 368120,
+      "git_blob": "3753f09b70e03e1710c039d0b829be8764344ff1",
+      "sha256": "cc4c52958628475a37a5689597e26c95b1781a88c4dbacdac914fd2615dda6eb"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic50kHz_08_sgmnt2.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic50kHz_08_sgmnt2.rda",
+      "bytes": 367580,
+      "git_blob": "01f0ee9e8b63d617c37e0f225edbd3a193cf6783",
+      "sha256": "60738615d367293743fd4cb2deedf4154a108d3e2dcd2004e6f62e15ffff584a"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic50kHz_09_sgmnt1.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic50kHz_09_sgmnt1.rda",
+      "bytes": 361468,
+      "git_blob": "efe3f16e572d024a517cc1b8958580e31ce1755c",
+      "sha256": "83deed998e23c61141fe61bf2f55e4703cf0f5dc3e3b526e0720474cea1bf3e8"
+    },
+    {
+      "file": "data/experimental/raw/mscl/data/ic50kHz_10_sgmnt1.rda",
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/data/ic50kHz_10_sgmnt1.rda",
+      "bytes": 357588,
+      "git_blob": "fc67cfe71be087d78988cd610a35b822d7c5f1d7",
+      "sha256": "6eef8ef1c849668976721314a7119be4d5453912ec05be321414eb3722d9fad4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rolfTurner/ionChannelData/116952a6f533e8c51f8c45fd37be5fbdfc09255c/man/ionChannelData.Rd",
+      "bytes": 7463,
+      "git_blob": "bf59d24bc1d1a43c97b83ac063bfd6fad10eb44f",
+      "sha256": "f91db52ef8250d3c22479628afe8f8393a385dd359803304d024eb9bf4c7ba7e"
+    }
+  ]
+}

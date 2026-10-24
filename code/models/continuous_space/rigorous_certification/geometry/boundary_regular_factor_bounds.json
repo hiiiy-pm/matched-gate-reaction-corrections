@@ -1,0 +1,48 @@
+{
+  "status": "CONDITIONAL_ENCLOSING_ARITHMETIC_ANALYTIC_BOUNDS",
+  "scope": "Global regular-factor and target-side source remainder constants; no finite-gamma error assertion by itself.",
+  "arithmetic_contract": "mpmath.iv elementary/power/Gamma enclosures; analytic positive Jacobi Poisson semigroup lemma in companion derivation.",
+  "source_sha256": "428ef2997b563de54633bef9ae593777983ec5b903e9fa9d84b6bb878b7b4e44",
+  "rows": [
+    {
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "coordinate_convention": "U(y)=y^s*(L-y)^s*q(2*y/L-1), L=31/32",
+      "bounds": {
+        "weighted_contraction_upper": "0.008047792607779751374508216047659105964283222060252647900",
+        "comparison_coefficient_upper": "19.88114932974212397371097819165799912545439636497707419",
+        "Wv_sup_upper": "0.01608074248832453940903613422785530760109902781715515138",
+        "Wv_derivative_absolute_sup_upper": "0.4966059035440919595556412657280526015577581826849843520",
+        "forcing_sup_upper": "39.72563140288351566267517693415604800837400456630054093",
+        "forcing_centered_t_derivative_sup_upper": "4.782280936220934025536758556237849039636554990834103065",
+        "regular_factor_sup_upper": "19.88114932974212397371097819165799912545439636217447726",
+        "regular_factor_centered_t_derivative_sup_upper": "0.7980485231033502015959036579530540222870236181312190372",
+        "B_left_global_difference_quotient_upper": "21.47758731596282658544766195769252629265464282147839386",
+        "B_right_global_difference_quotient_upper": "21.47758731596282658544766195769252629265464282147839386",
+        "tau0_upper": "3.015095637108307880564885757999889444087090475473740933",
+        "boundary_trace_simple_upper": "19.26016915341093236605598771292919136106739051451929396",
+        "target_source_remainder_sup_upper": "3.179329788088619913941469686928945566133267864094970605"
+      }
+    },
+    {
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "coordinate_convention": "U(y)=y^s*(L-y)^s*q(2*y/L-1), L=31/32",
+      "bounds": {
+        "weighted_contraction_upper": "0.02411182694695673994469105494491340228824365955332765858",
+        "comparison_coefficient_upper": "20.17142849250081868499213755586718775201309438325242569",
+        "Wv_sup_upper": "0.04809042391378104055377791113284132553521228681293971957",
+        "Wv_derivative_absolute_sup_upper": "1.483470654241686948196741942769973141930890989984368617",
+        "forcing_sup_upper": "40.23139968965811723303707260046962476139357082576454760",
+        "forcing_centered_t_derivative_sup_upper": "14.49430295164917862627723622159882943989041780434992616",
+        "regular_factor_sup_upper": "20.17142849250081868499213755586718775201309438605502261",
+        "regular_factor_centered_t_derivative_sup_upper": "2.424834509482766453382459304628455979363174999647564838",
+        "B_left_global_difference_quotient_upper": "25.02228912075474609835790182529041659371186673919046892",
+        "B_right_global_difference_quotient_upper": "25.02228912075474609835790182529041659371186673919046892",
+        "tau0_upper": "3.064416046302086565745237361099113586805876753955469427",
+        "boundary_trace_simple_upper": "19.54200197963830444178445474316162372522079317649185273",
+        "target_source_remainder_sup_upper": "3.545911230529163989609909316557383469428711317382416167"
+      }
+    }
+  ]
+}

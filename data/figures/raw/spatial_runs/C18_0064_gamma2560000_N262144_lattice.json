@@ -1,0 +1,99 @@
+{
+  "case": "C18_0064_gamma2560000_N262144_lattice",
+  "started_utc": "2026-10-18T03:00:48.526975+00:00",
+  "driver_status": "completed",
+  "plan_sha256": "a7e85453040d8d129fec7380e2f1d863af5c9823a3d0f46966c32f37b79feefe",
+  "parameters": {
+    "gamma": 2560000.0,
+    "N": 262144,
+    "method": "lattice",
+    "alpha": 1.999,
+    "width": 0.03125,
+    "rtol": 5e-13,
+    "gate_n": 18,
+    "gate_A": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      11,
+      13
+    ],
+    "gate_B": [
+      0,
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13
+    ]
+  },
+  "memory_before": {
+    "system_available_bytes": 9082769408,
+    "system_total_bytes": 34265288704,
+    "process_working_set_bytes": null,
+    "process_peak_working_set_bytes": null
+  },
+  "result": {
+    "n": 262144,
+    "m": 8192,
+    "alpha": 1.999,
+    "width": 0.03125,
+    "gamma": 2560000.0,
+    "D": 0.025376892686981036,
+    "method": "lattice",
+    "epsilon": 9.910539288873371e-05,
+    "cells_per_epsilon": 25.97988411342421,
+    "epsilon_over_width": 0.0031713725724394786,
+    "gap": -5.087833130891621e-07,
+    "gap_direct": -5.087837418038532e-07,
+    "bilinear_direct_discrepancy": 4.287146911075273e-13,
+    "normalized_gap": -0.005133760113946338,
+    "A": {
+      "mean": 2.9931250440448065,
+      "cg_info": 0,
+      "iterations": 23,
+      "residual_l2": 7.152276566406535e-11,
+      "residual_linf": 1.4832579608992091e-12,
+      "residual_relative": 2.634074615118593e-13,
+      "algebraic_mean_error_indicator": 6.797463768001261e-17,
+      "lambda_lower": 3.7455785922347926e-05,
+      "seconds": 0.18471949998638593,
+      "capacity_quadratic_lower": 6.013781494299158,
+      "capacity_error_indicator": 1.365745206586267e-16,
+      "min_normalized_charge": 2.1775588619631576e-07,
+      "status": "computed_not_continuum_certified"
+    },
+    "B": {
+      "mean": 2.9931255528285483,
+      "cg_info": 0,
+      "iterations": 24,
+      "residual_l2": 1.2258141319676007e-10,
+      "residual_linf": 3.0313529464365274e-12,
+      "residual_relative": 4.5144869020239165e-13,
+      "algebraic_mean_error_indicator": 1.9966764593834053e-16,
+      "lambda_lower": 3.7455785922347926e-05,
+      "seconds": 0.1863186999980826,
+      "capacity_quadratic_lower": 6.013780472051947,
+      "capacity_error_indicator": 4.01171741329007e-16,
+      "min_normalized_charge": 2.177555607486605e-07,
+      "status": "computed_not_continuum_certified"
+    },
+    "alias_operator_indicator": 0.0,
+    "wall_seconds": 0.5879347999871243
+  },
+  "finished_utc": "2026-10-18T03:00:49.122681+00:00",
+  "elapsed_seconds": 0.5949247000098694,
+  "memory_after": {
+    "system_available_bytes": 9040486400,
+    "system_total_bytes": 34265288704,
+    "process_working_set_bytes": null,
+    "process_peak_working_set_bytes": null
+  }
+}

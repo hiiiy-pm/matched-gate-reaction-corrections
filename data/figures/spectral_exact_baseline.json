@@ -1,0 +1,190 @@
+{
+  "arithmetic": "integers and exact SymPy rationals",
+  "pairs": [
+    {
+      "pair": "C18_0064",
+      "n": 18,
+      "C2_comparisons": 18,
+      "C3_comparisons": 324,
+      "C2_C3_exactly_equal": true,
+      "C4_orders": [
+        1,
+        1,
+        3
+      ],
+      "C4_difference": "-1/576",
+      "A": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "-133/192",
+        "visible_C4_derivative": "-739/1152",
+        "unobserved_C4_derivative": "-59/1152"
+      },
+      "B": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "-199/288",
+        "visible_C4_derivative": "-739/1152",
+        "unobserved_C4_derivative": "-19/384"
+      },
+      "spatial_D3_1_3": [
+        2,
+        3
+      ],
+      "folded_increment_A3_1_2": [
+        8,
+        8
+      ],
+      "all_folded_increment_A3_equal": true,
+      "covers": [
+        {
+          "states": 36,
+          "Btilde_L_equals_L_B": true,
+          "Ltranspose_L_equals_k_I": true
+        },
+        {
+          "states": 54,
+          "Btilde_L_equals_L_B": true,
+          "Ltranspose_L_equals_k_I": true
+        }
+      ]
+    },
+    {
+      "pair": "C18_0189",
+      "n": 18,
+      "C2_comparisons": 18,
+      "C3_comparisons": 324,
+      "C2_C3_exactly_equal": true,
+      "C4_orders": [
+        1,
+        1,
+        5
+      ],
+      "C4_difference": "1/2304",
+      "A": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "-3983/2304",
+        "visible_C4_derivative": "-6955/4608",
+        "unobserved_C4_derivative": "-337/1536"
+      },
+      "B": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "-83/48",
+        "visible_C4_derivative": "-6955/4608",
+        "unobserved_C4_derivative": "-1013/4608"
+      }
+    },
+    {
+      "pair": "C20_0201",
+      "n": 20,
+      "C2_comparisons": 20,
+      "C3_comparisons": 400,
+      "C2_C3_exactly_equal": true,
+      "C4_orders": [
+        1,
+        1,
+        2
+      ],
+      "C4_difference": "-1/320",
+      "A": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [
+          5
+        ],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "69/160",
+        "visible_C4_derivative": "129/320",
+        "unobserved_C4_derivative": "9/320"
+      },
+      "B": {
+        "krylov_rank": 10,
+        "pivots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "invisible_real_spectral_labels": [
+          5
+        ],
+        "leakage_squared_hilbert_schmidt": "2",
+        "full_C4_derivative": "139/320",
+        "visible_C4_derivative": "129/320",
+        "unobserved_C4_derivative": "1/32"
+      }
+    }
+  ],
+  "source_sha256": "6613726368042db46132da59e443b1f40b89619aecfa1665423c582d09289284"
+}

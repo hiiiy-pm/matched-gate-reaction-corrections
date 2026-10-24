@@ -1,0 +1,255 @@
+{
+  "status": "CONDITIONAL_ENCLOSING_ARITHMETIC_CERTIFICATE",
+  "scope": "Periodic permanently-open-target endpoint traces and K only; no gate output read.",
+  "arithmetic_contract": "mpmath.iv encloses elementary, power, pi, and Gamma operations at the requested precision. Not an externally formally verified implementation.",
+  "source_sha256": "459c8bb54f44a3fe5aeda6866ee381de6310cf9f0e90102d9e4159da5cb4df44",
+  "rows": [
+    {
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 256,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.998155677220034849394872927896190004568301142189821201",
+        "upper_decimal": "1.998155677220034849394872927896190004568415936560018691"
+      },
+      "image_constant": {
+        "lower_decimal": "0.0009990774277557750711331973391699933667556469981526488626",
+        "upper_decimal": "0.0009990774277557750711331973391699933667787628176201510451"
+      },
+      "Wv_sup_upper_decimal": "0.01608074248832453940903613422785530760133604515819119858",
+      "weighted_operator_contraction_upper_decimal": "0.008047792607779751374508216047659105964402275943981280852",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.0008185866014591485763180129998906085564236611038919481284",
+        "upper_decimal": "0.0008688091843978543625799024688334137131839437466408096476"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.10516730647352427235683239892155141616031263553102796",
+        "upper_decimal": "19.10516730647352427235683239892155141616398605537734762"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.12080654044923887025651674243400898380226281560385876",
+        "upper_decimal": "19.12190071832706393764417609716726996799634366039211072"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.12080654044923887025651674243400898380226281560385876",
+        "upper_decimal": "19.12190071832706393764417609716726996799634366039211072"
+      },
+      "K_interval": {
+        "lower_decimal": "18.54800954882139914256516460896598532615975848513732009",
+        "upper_decimal": "18.55013240931509300024282273923482982817187568265611334"
+      },
+      "K_midpoint_display": "18.5490709790682461",
+      "K_relative_midpoint_error_bound_display": "0.000057226099870882133",
+      "seconds": 2.519946800020989
+    },
+    {
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 512,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.998155677220034849394872927896190004568301142189821201",
+        "upper_decimal": "1.998155677220034849394872927896190004568415936560018691"
+      },
+      "image_constant": {
+        "lower_decimal": "0.0009990774277557750711331973391699933667556469981526488626",
+        "upper_decimal": "0.0009990774277557750711331973391699933667787628176201510451"
+      },
+      "Wv_sup_upper_decimal": "0.01608074248832453940903613422785530760133604515819119858",
+      "weighted_operator_contraction_upper_decimal": "0.008047792607779751374508216047659105964402275943981280852",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.0008304780614754469729707472723074224350441532028113367134",
+        "upper_decimal": "0.0008555786070391190750620787004397281084712552439607087775"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.10516730647352427235683239892155141616031263553102796",
+        "upper_decimal": "19.10516730647352427235683239892155141616398605537734762"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.12103372878236849150633825915550644262179033295784528",
+        "upper_decimal": "19.12164589516913740717197441001332925023409117302758428"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.12103372878236849150633825915550644262179033295784528",
+        "upper_decimal": "19.12164589516913740717197441001332925023409117302758428"
+      },
+      "K_interval": {
+        "lower_decimal": "18.54845031646344629397885583790780802253215482895995719",
+        "upper_decimal": "18.54963800534411522973262374710433712690261716138033050"
+      },
+      "K_midpoint_display": "18.5490441609037808",
+      "K_relative_midpoint_error_bound_display": "0.0000320158520093388404",
+      "seconds": 8.598049399995944
+    },
+    {
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 1024,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.998155677220034849394872927896190004568301142189821201",
+        "upper_decimal": "1.998155677220034849394872927896190004568415936560018691"
+      },
+      "image_constant": {
+        "lower_decimal": "0.0009990774277557750711331973391699933667556469981526488626",
+        "upper_decimal": "0.0009990774277557750711331973391699933667787628176201510451"
+      },
+      "Wv_sup_upper_decimal": "0.01608074248832453940903613422785530760133604515819119858",
+      "weighted_operator_contraction_upper_decimal": "0.008047792607779751374508216047659105964402275943981280852",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.0008365793110298361496107349013174934364581284793014187579",
+        "upper_decimal": "0.0008491431247417183659565368500483267036529415160432698358"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.10516730647352427235683239892155141616031263553102796",
+        "upper_decimal": "19.10516730647352427235683239892155141616398605537734762"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.12115029417588364376243651932030214954741314994278841",
+        "upper_decimal": "19.12152194669150568791441234434809199410062337703877464"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.12115029417588364376243651932030214954741314994278841",
+        "upper_decimal": "19.12152194669150568791441234434809199410062337703877464"
+      },
+      "K_interval": {
+        "lower_decimal": "18.54867646678891594404648258200841666111233877524832997",
+        "upper_decimal": "18.54939752479634615426982332866038591125795452870708360"
+      },
+      "K_midpoint_display": "18.549036995792631",
+      "K_relative_midpoint_error_bound_display": "0.0000194369126207266621",
+      "seconds": 30.23123149998719
+    },
+    {
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 256,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.994474496668148371926686405535149587856866042823089126",
+        "upper_decimal": "1.994474496668148371926686405535149587856980837193286616"
+      },
+      "image_constant": {
+        "lower_decimal": "0.002991700672385239855089325883024394309709053337142747803",
+        "upper_decimal": "0.002991700672385239855089325883024394309732415785139971154"
+      },
+      "Wv_sup_upper_decimal": "0.04809042391378104055377791113284132553555116204328464815",
+      "weighted_operator_contraction_upper_decimal": "0.02411182694695673994469105494491340228841437807845751359",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.002458055137059058153480282504187502616852472284624009515",
+        "upper_decimal": "0.002608767808230611840818860853875696945723727733243565829"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.07080860970817961551813320132811741961557079531643957",
+        "upper_decimal": "19.07080860970817961551813320132811741961961155714739120"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.11768570877914292123484147223332823468070243715497186",
+        "upper_decimal": "19.12178915538103891267937410928619763978044273415917242"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.11768570877914292123484147223332823468070243715497186",
+        "upper_decimal": "19.12178915538103891267937410928619763978044273415917242"
+      },
+      "K_interval": {
+        "lower_decimal": "18.59453085476686023578354455212400989395060075812420781",
+        "upper_decimal": "18.60251402326956186422019830918899657030657732516169622"
+      },
+      "K_midpoint_display": "18.5985224390182111",
+      "K_relative_midpoint_error_bound_display": "0.000214664423777464593",
+      "seconds": 2.441138599999249
+    },
+    {
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 512,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.994474496668148371926686405535149587856866042823089126",
+        "upper_decimal": "1.994474496668148371926686405535149587856980837193286616"
+      },
+      "image_constant": {
+        "lower_decimal": "0.002991700672385239855089325883024394309709053337142747803",
+        "upper_decimal": "0.002991700672385239855089325883024394309732415785139971154"
+      },
+      "Wv_sup_upper_decimal": "0.04809042391378104055377791113284132553555116204328464815",
+      "weighted_operator_contraction_upper_decimal": "0.02411182694695673994469105494491340228841437807845751359",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.002493741713507390124862136657715314230158310758397486371",
+        "upper_decimal": "0.002569066347063932052831525271469573913527508055509138642"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.07080860970817961551813320132811741961557079531643957",
+        "upper_decimal": "19.07080860970817961551813320132811741961961155714739120"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.11836628064852477974434881625379383945177753483346967",
+        "upper_decimal": "19.12101330934832512299465827215846016217845265179367168"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.11836628064852477974434881625379383945177753483346967",
+        "upper_decimal": "19.12101330934832512299465827215846016217845265179367168"
+      },
+      "K_interval": {
+        "lower_decimal": "18.59585477441576461200839815359297980508709711315106083",
+        "upper_decimal": "18.60100449988858436901190635828542988168699866772867748"
+      },
+      "K_midpoint_display": "18.5984296371521745",
+      "K_relative_midpoint_error_bound_display": "0.000138464338834931252",
+      "seconds": 8.410510199988494
+    },
+    {
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "D_definition": "(2*pi)^(-alpha)",
+      "panels_per_axis": 1024,
+      "explicitly_summed_images": 16,
+      "interval_dps": 40,
+      "lambda0": {
+        "lower_decimal": "1.994474496668148371926686405535149587856866042823089126",
+        "upper_decimal": "1.994474496668148371926686405535149587856980837193286616"
+      },
+      "image_constant": {
+        "lower_decimal": "0.002991700672385239855089325883024394309709053337142747803",
+        "upper_decimal": "0.002991700672385239855089325883024394309732415785139971154"
+      },
+      "Wv_sup_upper_decimal": "0.04809042391378104055377791113284132553555116204328464815",
+      "weighted_operator_contraction_upper_decimal": "0.02411182694695673994469105494491340228841437807845751359",
+      "first_trace_correction_relative_interval": {
+        "lower_decimal": "0.002512051374010758036105575220368663902797793478870625221",
+        "upper_decimal": "0.002549754712411433369902807560809401216344705877697622507"
+      },
+      "real_line_trace_interval": {
+        "lower_decimal": "19.07080860970817961551813320132811741961557079531643957",
+        "upper_decimal": "19.07080860970817961551813320132811741961961155714739120"
+      },
+      "periodic_left_trace_interval": {
+        "lower_decimal": "19.11871546067969324230792007492580549976956302510573179",
+        "upper_decimal": "19.12063592134571594205339356863634530956541445300798839"
+      },
+      "periodic_right_trace_interval": {
+        "lower_decimal": "19.11871546067969324230792007492580549976956302510573179",
+        "upper_decimal": "19.12063592134571594205339356863634530956541445300798839"
+      },
+      "K_interval": {
+        "lower_decimal": "18.59653405426129253628413083251551178005339853280428246",
+        "upper_decimal": "18.60027025777003721978636089829747100279367422570953777"
+      },
+      "K_midpoint_display": "18.5984021560156649",
+      "K_relative_midpoint_error_bound_display": "0.00010045429696316323",
+      "seconds": 30.716232200007653
+    }
+  ],
+  "seconds": 82.92237559999921
+}

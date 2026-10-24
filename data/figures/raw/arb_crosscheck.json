@@ -1,0 +1,123 @@
+{
+  "status": "valid",
+  "backend_a": "mpmath.iv 70-digit certificates",
+  "backend_b": "python-flint arb 200-bit corrected outward certificates",
+  "scope": "1558 principal segments; agreement is not an independent analytic proof",
+  "mpmath_dir": "data/figures/raw/round1",
+  "arb_dir": "data/figures/raw/arb",
+  "pairs": {
+    "C18_0064": {
+      "segments": 698,
+      "sign_agreement": 698,
+      "overlap": 698,
+      "one_contains_other": 698,
+      "mpmath_envelope": [
+        -0.000555348694641851,
+        -4.837180610624903e-07
+      ],
+      "arb_envelope": [
+        -0.0005553906644308882,
+        -4.418084245116915e-07
+      ],
+      "union_envelope": [
+        -0.0005553906644308882,
+        -4.418084245116915e-07
+      ],
+      "max_abs_lower_endpoint_difference": 4.585085384268108e-08,
+      "max_abs_upper_endpoint_difference": 4.536879867432899e-08,
+      "worst_segment": {
+        "alpha_lo": "1.999995",
+        "alpha_hi": "2.000000",
+        "mpmath": [
+          -0.00028439642296967265,
+          -0.0002685069330452103
+        ],
+        "arb": [
+          -0.00028444227382351533,
+          -0.00026846156424653595
+        ]
+      },
+      "arb_seconds": 0.9559011459350586,
+      "mpmath_input": "data/figures/raw/round1/interval_C18_0064_70.json",
+      "mpmath_sha256": "6ae12992f49947d41bbae196428152a0e835c01d161eb01f66061942ff9910b7",
+      "arb_input": "data/figures/raw/arb/arb_C18_0064.json",
+      "arb_sha256": "cb00177c16676262cbca1991fe6a6b2213ce4670cf37bfd1079c0c6a39a3d7b7"
+    },
+    "C18_0189": {
+      "segments": 360,
+      "sign_agreement": 360,
+      "overlap": 360,
+      "one_contains_other": 360,
+      "mpmath_envelope": [
+        3.414313694126205e-06,
+        0.000134377449774921
+      ],
+      "arb_envelope": [
+        3.3809345723057045e-06,
+        0.00013441090311516748
+      ],
+      "union_envelope": [
+        3.3809345723057045e-06,
+        0.00013441090311516748
+      ],
+      "max_abs_lower_endpoint_difference": 3.415311074353905e-08,
+      "max_abs_upper_endpoint_difference": 3.409937284519157e-08,
+      "worst_segment": {
+        "alpha_lo": "1.999030",
+        "alpha_hi": "1.999035",
+        "mpmath": [
+          4.617580975026361e-05,
+          9.179710192989374e-05
+        ],
+        "arb": [
+          4.614165663952007e-05,
+          9.183120130273893e-05
+        ]
+      },
+      "arb_seconds": 0.4947795867919922,
+      "mpmath_input": "data/figures/raw/round1/interval_C18_0189_70.json",
+      "mpmath_sha256": "e41f10f735da0b14cb1ee189cfb28af1b182531cebc0dd7bfd5b6d1aee83a622",
+      "arb_input": "data/figures/raw/arb/arb_C18_0189.json",
+      "arb_sha256": "895d5adef6f8b725befac8c7a248cb374604897099985bd623e263035273ad2e"
+    },
+    "C20_0201": {
+      "segments": 500,
+      "sign_agreement": 500,
+      "overlap": 500,
+      "one_contains_other": 500,
+      "mpmath_envelope": [
+        8.422705610270313e-07,
+        0.0011365906032964042
+      ],
+      "arb_envelope": [
+        7.684293450438416e-07,
+        0.00113666513334465
+      ],
+      "union_envelope": [
+        7.684293450438416e-07,
+        0.00113666513334465
+      ],
+      "max_abs_lower_endpoint_difference": 7.535346357900505e-08,
+      "max_abs_upper_endpoint_difference": 7.526918672107891e-08,
+      "worst_segment": {
+        "alpha_lo": "1.99579675",
+        "alpha_hi": "1.99580664",
+        "mpmath": [
+          0.0001528562470497475,
+          0.0009797126855610142
+        ],
+        "arb": [
+          0.0001527808935861685,
+          0.0009797879547477353
+        ]
+      },
+      "arb_seconds": 0.801811933517456,
+      "mpmath_input": "data/figures/raw/round1/interval_C20_0201_70.json",
+      "mpmath_sha256": "c91ce62f950cf7cbd297a96120dd2277ec1116071147bfcc6dd0de16f0fad32f",
+      "arb_input": "data/figures/raw/arb/arb_C20_0201.json",
+      "arb_sha256": "7a9cb9d08d113ecf8c158cbdbb603cc1e4baa9f9c5e650197f1f52d5e19b9410"
+    }
+  },
+  "script_sha256": "a528893af1d999bb0c8ca1c3b3dbdd836ba1c3b6954f8d3c3e311f645aa783aa",
+  "segments_compared": 1558
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "archive_url": "https://zenodo.org/api/records/7817601/files/Modules.zip/content",
+    "archive_member": "Data/HEK293_Cell01_40mV_100s_raw_DET_IDEl.xlsx",
+    "sha256": "3c3d31958d0cc13b3795c4615ed83ff4631f54b70b4f8c42318d22327cef08a8",
+    "bytes": 248210
+  },
+  {
+    "archive_url": "https://zenodo.org/api/records/7817601/files/Modules.zip/content",
+    "archive_member": "Documentation.pdf",
+    "sha256": "0e200032bd3616613919dacb38c4e961ef0aacf8680b3de8e370fab8f87534e9",
+    "bytes": 1217122
+  },
+  {
+    "archive_url": "https://zenodo.org/api/records/7817601/files/Modules.zip/content",
+    "archive_member": "Recordings.pdf",
+    "sha256": "3cfba1ceb9f291c67816f7297d5f59ab388e06986657269ca9f978db6bba4e71",
+    "bytes": 427223
+  }
+]

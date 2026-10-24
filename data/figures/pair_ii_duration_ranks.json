@@ -1,0 +1,251 @@
+{
+  "definition": "density derivatives at zero; unit hidden gate rate",
+  "killed_annihilating_polynomial": "z**5 + 5*z**4 + 37*z**3/4 + 31*z**2/4 + 23*z/8 + 3/8",
+  "models": [
+    {
+      "mask": "A",
+      "initial_color": "on",
+      "pair_density_ranks": {
+        "opposite_colors": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "-1/128000"
+        },
+        "same_color_with_middle_duration_integrated": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "193/9216000"
+        }
+      },
+      "four_duration_cut": {
+        "rank": 8,
+        "row_indices_0_based": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "column_indices_0_based": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          11
+        ],
+        "nonzero_minor": "-3/900719925474099200000000"
+      },
+      "middle_mode_derivative_checks": 25,
+      "middle_mode_at_t0_v0": "1/160"
+    },
+    {
+      "mask": "A",
+      "initial_color": "off",
+      "pair_density_ranks": {
+        "opposite_colors": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "-1/128000"
+        },
+        "same_color_with_middle_duration_integrated": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "193/9216000"
+        }
+      },
+      "four_duration_cut": {
+        "rank": 8,
+        "row_indices_0_based": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "column_indices_0_based": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          11
+        ],
+        "nonzero_minor": "-3/900719925474099200000000"
+      },
+      "middle_mode_derivative_checks": 25,
+      "middle_mode_at_t0_v0": "1/160"
+    },
+    {
+      "mask": "B",
+      "initial_color": "on",
+      "pair_density_ranks": {
+        "opposite_colors": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "-1/128000"
+        },
+        "same_color_with_middle_duration_integrated": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "193/9216000"
+        }
+      },
+      "four_duration_cut": {
+        "rank": 8,
+        "row_indices_0_based": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "column_indices_0_based": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          11
+        ],
+        "nonzero_minor": "3/900719925474099200000000"
+      },
+      "middle_mode_derivative_checks": 25,
+      "middle_mode_at_t0_v0": "1/160"
+    },
+    {
+      "mask": "B",
+      "initial_color": "off",
+      "pair_density_ranks": {
+        "opposite_colors": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "-1/128000"
+        },
+        "same_color_with_middle_duration_integrated": {
+          "rank": 3,
+          "row_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "column_indices_0_based": [
+            0,
+            1,
+            2
+          ],
+          "nonzero_minor": "193/9216000"
+        }
+      },
+      "four_duration_cut": {
+        "rank": 8,
+        "row_indices_0_based": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "column_indices_0_based": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          11
+        ],
+        "nonzero_minor": "3/900719925474099200000000"
+      },
+      "middle_mode_derivative_checks": 25,
+      "middle_mode_at_t0_v0": "1/160"
+    }
+  ],
+  "rank_interpretation": "rank is for the complete kernel; no assertion of minimum positive realization",
+  "common_triple_middle_rate": "3/2",
+  "common_triple_middle_coefficient": "((q1(t)-q2(t))*(q1(v)-q2(v))+(q2(t)-q3(t))*(q2(v)-q3(v)))/40",
+  "all_pass": true,
+  "source_sha256": "1196a29ac6986e1feed01fca414b112e2dd546b6c941ddcad114656cfdc45d44"
+}

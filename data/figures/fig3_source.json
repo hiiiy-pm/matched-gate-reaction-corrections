@@ -1,0 +1,66 @@
+{
+  "source": "pair_ii_spectral_allocation.json",
+  "definition_unweighted": "4608*cumulative sum_j (d_A(mu_j)-d_B(mu_j))",
+  "definition_weighted": "4608*cumulative sum_j mu_j*(d_A(mu_j)-d_B(mu_j))",
+  "unweighted": [
+    0.0,
+    223.01345748126653,
+    -389.9547248157698,
+    343.3786085175636,
+    -181.44315650021275,
+    47.27720295233562,
+    47.27720295233562,
+    -57.78994731481261,
+    0.0,
+    0.0
+  ],
+  "weighted": [
+    0.0,
+    -13.449357150168437,
+    129.95795528948247,
+    -236.7087113771842,
+    196.97871054531333,
+    -71.45852252149534,
+    -71.45852252149534,
+    114.09473436214844,
+    2.0,
+    2.0
+  ],
+  "exact_endpoints": [
+    0,
+    2
+  ],
+  "rates": [
+    0.0,
+    -0.060307379214091614,
+    -0.23395555688102196,
+    -0.5,
+    -0.8263518223330697,
+    -1.1736481776669303,
+    -1.5,
+    -1.7660444431189781,
+    -1.9396926207859084,
+    -2.0
+  ],
+  "common_unweighted_sum": "3269/10368",
+  "endpoint_zoom_ylim": [
+    -0.4,
+    2.6
+  ],
+  "exact_decomposition": {
+    "A": {
+      "total": "3269/10368",
+      "weighted_total": "-337/1536",
+      "visible": "-6955/4608",
+      "direct_C4_derivative": "-3983/2304"
+    },
+    "B": {
+      "total": "3269/10368",
+      "weighted_total": "-1013/4608",
+      "visible": "-6955/4608",
+      "direct_C4_derivative": "-83/48"
+    }
+  },
+  "bar_axis": "negative derivative in units 1/4608; internal labels give signed V and U coefficients.",
+  "schematic": "Qualitative K_g plane, projection and orthogonal residual; lengths and angles are not measured."
+}

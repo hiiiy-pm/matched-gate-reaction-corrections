@@ -1,0 +1,94 @@
+{
+  "status": "CONDITIONAL_ARBITRARY_TRIAL_SECOND_ORDER_RESIDUAL_BOUND",
+  "witness": "C18_0189",
+  "label": "A",
+  "gamma": "1280000.0",
+  "alpha": "1.999",
+  "source_N": 262144,
+  "fourier_cutoff": 1048576,
+  "precision_bits": 160,
+  "fixed_c_exact_binary64_hex": "0x1.5492b499ac52cp-3",
+  "eta_exact": "1/8192",
+  "finite_fourier_derivative_square": [
+    0.00022382768647641473,
+    0.00022382768647641479
+  ],
+  "fourier_atom_cross_term": [
+    -0.00044765537216268965,
+    -0.00044765537216268954
+  ],
+  "analytic_atom_derivative_square": [
+    0.00022382769783856863,
+    0.00022382769783856868
+  ],
+  "finite_combined_derivative_square": [
+    1.2152293843943496e-11,
+    1.2152293844587126e-11
+  ],
+  "cell_derivative_L2_tail": [
+    9.61932133691366e-07,
+    9.619321336913663e-07
+  ],
+  "atom_gate_derivative_L2_tail": [
+    2.1104851969900386e-09,
+    2.1104851969900394e-09
+  ],
+  "analytic_atom_series_derivative_L2_tail": [
+    8.857742625438124e-28,
+    8.857742625438128e-28
+  ],
+  "target_derivative_square_upper": [
+    1.980300421307617e-11,
+    1.9803004213076176e-11
+  ],
+  "target_trace_delta2_bound": [
+    9.438182509338879e-18,
+    9.438182509338882e-18
+  ],
+  "extension_derivative_energy_bound": [
+    5.05532911559919e-13,
+    5.055329115599192e-13
+  ],
+  "extension_gate_energy_bound": [
+    7.570208887698892e-13,
+    7.570208887698894e-13
+  ],
+  "green_energy_defect_upper": [
+    1.2625538003298083e-12,
+    1.2625538003298087e-12
+  ],
+  "tau_variational_defect_upper": [
+    2.2725968405936547e-11,
+    2.2725968405936554e-11
+  ],
+  "seconds": 296.0985176000104,
+  "module_sha256": "4fa071bf4bf8c6f94038589974523aab12ffb26238a6bca6afb9412a25a56a63",
+  "contract": "Second-order trace extension theorem, exact finite Fourier/atom integrals and explicit infinite tails; Arb enclosing-arithmetic contract. No sampled derivative approximation.",
+  "driver_provenance": {
+    "driver_sha256": "05f1b475aa349e7154126cd87ec8ed69eee3660bf42dfcdab528bdd03a4d2479",
+    "derivative_module_sha256": "4fa071bf4bf8c6f94038589974523aab12ffb26238a6bca6afb9412a25a56a63",
+    "input_trial": "code/models/extended_models/second_rate/continuum/C18_0189_N262144_enriched_trial.json",
+    "input_trial_sha256": "e063768099bef859638af569f4a7130f1ebc020daa8f6a65cbfe0e299eb612f9",
+    "formal_potential_input": "code/models/extended_models/second_rate/continuum/C18_0189_N262144_K1048576_A_enriched_enclosure.json",
+    "formal_potential_sha256": "0be86fcc91f90940d6fc9f665d9f8f0d00c28434c9028260c8eaa60adba4b23d",
+    "precision_bits": 160,
+    "fourier_cutoff": 1048576,
+    "flint_version": "0.9.0",
+    "diagnostic": {
+      "coefficient_generation_seconds": 141.03348470001947,
+      "coefficient_count_per_gate": 1048576,
+      "reaction_gates": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        14
+      ]
+    },
+    "total_seconds": 437.5021778999944
+  }
+}

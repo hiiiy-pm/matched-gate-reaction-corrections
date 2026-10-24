@@ -1,0 +1,249 @@
+{
+  "label": "A",
+  "witness": "C18_0189",
+  "alpha": "1.999",
+  "gamma": "2560000.0",
+  "source_N": 262144,
+  "fourier_cutoff": 1048576,
+  "sample_grid_L": 4194304,
+  "precision_bits": 100,
+  "cell_l1": [
+    0.32172292153478044,
+    0.32172292153478055
+  ],
+  "atom_l1": [
+    0.6782770784652193,
+    0.6782770784652196
+  ],
+  "cell_mass_total_variation": [
+    0.017528323187726774,
+    0.01752832318772678
+  ],
+  "cell_fourier_tail_bound": [
+    6.747430200610626e-10,
+    6.747430200610628e-10
+  ],
+  "atom_gate_remainder_fourier_tail_bound": [
+    2.0659363114286394e-12,
+    2.0659363114286402e-12
+  ],
+  "gate_records": [
+    {
+      "gate": 0,
+      "sample_potential_range": [
+        0.16627719497008328,
+        0.16627719556781606
+      ],
+      "finite_fourier_interpolation_bound": [
+        1.1807832753350814e-10,
+        1.180783275335082e-10
+      ],
+      "atomic_interpolation_bound": [
+        1.4148845390726028e-10,
+        1.4148845390726033e-10
+      ],
+      "total_added_bound": [
+        9.363757378132596e-10,
+        9.3637573781326e-10
+      ],
+      "potential_enclosure": [
+        0.16627719403370755,
+        0.16627719650419182
+      ]
+    },
+    {
+      "gate": 1,
+      "sample_potential_range": [
+        0.16627719498345647,
+        0.16627719555681592
+      ],
+      "finite_fourier_interpolation_bound": [
+        9.914818252149686e-11,
+        9.914818252149688e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.3524433127005466e-10,
+        1.352443312700547e-10
+      ],
+      "total_added_bound": [
+        9.112014701640427e-10,
+        9.112014701640429e-10
+      ],
+      "potential_enclosure": [
+        0.166277194072255,
+        0.1662771964680174
+      ]
+    },
+    {
+      "gate": 4,
+      "sample_potential_range": [
+        0.1662771949986525,
+        0.16627719554526862
+      ],
+      "finite_fourier_interpolation_bound": [
+        9.504416678615723e-11,
+        9.504416678615725e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.2879548380636525e-10,
+        1.287954838063653e-10
+      ],
+      "total_added_bound": [
+        9.006486069650137e-10,
+        9.006486069650139e-10
+      ],
+      "potential_enclosure": [
+        0.1662771940980039,
+        0.16627719644591724
+      ]
+    },
+    {
+      "gate": 5,
+      "sample_potential_range": [
+        0.16627719504884703,
+        0.16627719549832254
+      ],
+      "finite_fourier_interpolation_bound": [
+        1.3697990520414953e-11,
+        1.3697990520414957e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.0958496302550761e-10,
+        1.0958496302550764e-10
+      ],
+      "total_added_bound": [
+        8.000919099184137e-10,
+        8.000919099184139e-10
+      ],
+      "potential_enclosure": [
+        0.16627719424875512,
+        0.16627719629841448
+      ]
+    },
+    {
+      "gate": 6,
+      "sample_potential_range": [
+        0.16627719501584698,
+        0.16627719553119702
+      ],
+      "finite_fourier_interpolation_bound": [
+        6.901333133235853e-11,
+        6.901333133235855e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.2054951299164967e-10,
+        1.2054951299164972e-10
+      ],
+      "total_added_bound": [
+        8.663718006964994e-10,
+        8.663718006964997e-10
+      ],
+      "potential_enclosure": [
+        0.1662771941494752,
+        0.16627719639756883
+      ]
+    },
+    {
+      "gate": 8,
+      "sample_potential_range": [
+        0.16627719495569493,
+        0.16627719558587029
+      ],
+      "finite_fourier_interpolation_bound": [
+        1.587011400347285e-10,
+        1.5870114003472855e-10
+      ],
+      "atomic_interpolation_bound": [
+        1.439539737658266e-10,
+        1.4395397376582665e-10
+      ],
+      "total_added_bound": [
+        9.794640701730462e-10,
+        9.794640701730466e-10
+      ],
+      "potential_enclosure": [
+        0.16627719397623086,
+        0.16627719656533438
+      ]
+    },
+    {
+      "gate": 11,
+      "sample_potential_range": [
+        0.16627719499134577,
+        0.16627719555085765
+      ],
+      "finite_fourier_interpolation_bound": [
+        9.731787293320436e-11,
+        9.731787293320439e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.3190031543319967e-10,
+        1.3190031543319972e-10
+      ],
+      "total_added_bound": [
+        9.060271447388953e-10,
+        9.060271447388955e-10
+      ],
+      "potential_enclosure": [
+        0.16627719408531863,
+        0.1662771964568848
+      ]
+    },
+    {
+      "gate": 12,
+      "sample_potential_range": [
+        0.16627719500277602,
+        0.16627719554136702
+      ],
+      "finite_fourier_interpolation_bound": [
+        7.39776101565073e-11,
+        7.397761015650733e-11
+      ],
+      "atomic_interpolation_bound": [
+        1.2602258115542512e-10,
+        1.2602258115542517e-10
+      ],
+      "total_added_bound": [
+        8.768091476844236e-10,
+        8.768091476844238e-10
+      ],
+      "potential_enclosure": [
+        0.16627719412596687,
+        0.16627719641817615
+      ]
+    },
+    {
+      "gate": 14,
+      "sample_potential_range": [
+        0.1662771949332452,
+        0.16627719560413853
+      ],
+      "finite_fourier_interpolation_bound": [
+        1.8134826738366295e-10,
+        1.81348267383663e-10
+      ],
+      "atomic_interpolation_bound": [
+        1.539148102982954e-10,
+        1.5391481029829545e-10
+      ],
+      "total_added_bound": [
+        1.0120720340544495e-09,
+        1.01207203405445e-09
+      ],
+      "potential_enclosure": [
+        0.16627719392117316,
+        0.16627719661621057
+      ]
+    }
+  ],
+  "continuous_mean_enclosure": [
+    2.9929894905811167,
+    2.9929895390917904
+  ],
+  "enclosure_ball": "[2.9929895 +/- 3.91e-8]",
+  "seconds": 246.01261979999254,
+  "flint_version": "0.9.0",
+  "source_sha256": "d3359f644cad3672d3580c009abec2f7d7f58b02bd91614447a290d7c31d84f0",
+  "trial_sha256": "4196899810b75bc36fa331de6e90f5166bc4a69e63d0862db4536874619f1ea1",
+  "status": "conditional_on_Arb_ball_arithmetic_and_stated_analytic_lemma"
+}

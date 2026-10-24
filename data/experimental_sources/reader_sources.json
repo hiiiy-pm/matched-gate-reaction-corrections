@@ -1,0 +1,98 @@
+[
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "LICENSE",
+    "sha256": "e9dc89e3bbe51a2c41e4725cb0b7874d7502afe282602281fb45adaa1d29c89a"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/__init__.py",
+    "sha256": "8ca3ef8f055110ef9d51f70e1b8afce28440c6f42538aebcad90c11560825282"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/analysis/__init__.py",
+    "sha256": "9b03a38b8036db51f8180c85f854fbcb0da006484dcaf7d119d6634927681ccb"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/analysis/bursts.py",
+    "sha256": "5d41e30acc042f84f390f9a2898dc7ff0d44ab9e7efd9530395a2dfd12ef58e4"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/analysis/histogram.py",
+    "sha256": "ae07f4764546258491aaf007b4d32ac89def674ac341b834ccf8e83f424b2e8b"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/analysis/record.py",
+    "sha256": "6370b86ead8d90eb49d8ea95d8de345a26e140f62b24f22fa8acf665eb228472"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/cli/__init__.py",
+    "sha256": "8f2af2c84a052ca89aa7eb86b08f672c1418d9baae36b6e227612d082ab702ff"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/cli/csv2ssd.py",
+    "sha256": "ddefa11887170186d82c177341e05ca295088dd069323b801e3df535c5bc3312"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/cli/scn2txt.py",
+    "sha256": "a8bda1362b2c70dc9d9cb6e1f26c07c277a97fcedf3be7189fb0f4272ea8e791"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/cli/txt2scn.py",
+    "sha256": "c494a67113c1ef49425d8933647172b53dd2b4b0c0e41861cb93f53aea22996a"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/formats/__init__.py",
+    "sha256": "9140d483151de5a51a5b2cfbbded19115a99621d947b5bbc32142d33c4cd95cc"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/formats/scan_ini.py",
+    "sha256": "259aa3bc17ee614a2f9cb5e24c63b7cfe0a16dbce10d03284084a8820a7bb402"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/formats/scn.py",
+    "sha256": "226da9c36991afd2cee1fcfbca4775ee39a52f0f8d59726d974d8e8bf0f3775e"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "dcio/formats/ssd.py",
+    "sha256": "2c28216c7c2d105cd0bfc7826f0c3c519cee862fb8534e2bad8b37c65ee78a00"
+  },
+  {
+    "repository": "DCPROGS/dcio",
+    "commit": "ffd52208230251ccd7179fc7e5c0c2a4d09acaa0",
+    "path": "docs/scn_format.md",
+    "sha256": "0c02434e2376d2a57aadd4313b97f9fee80b36a4859ac8f5ba1cfce1aa926dbe"
+  },
+  {
+    "repository": "DCPROGS/SCALCS",
+    "commit": "fb8382e589adb0fa21436d7b645090d922361ea6",
+    "path": "scalcs/scsim.py",
+    "sha256": "8727597cdb078fd6ba481d19e6ea6701a1072987a0392b0eb658670434e8025e"
+  }
+]

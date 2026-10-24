@@ -1,0 +1,256 @@
+{
+  "status": "FRESH_FULL_CONTINUOUS_PIPELINE_COMBINED",
+  "created_utc": "2026-10-20T13:51:34.869951+00:00",
+  "scope": "Fresh CG trials, Fourier enclosures, exact-target derivatives and local/geometry integrals at this rate.",
+  "contract": "Conditional on the stated analytic inequalities and enclosing arithmetic; not proof-assistant verification.",
+  "no_archived_numeric_certificate_inputs": true,
+  "gamma": 1280000,
+  "precision_bits": 256,
+  "combiner_sha256": "01804a341ee4daa1aac8d2f46e41d03c76f7c90c731a2c9069e2e2fd86685b6f",
+  "all_one_percent": true,
+  "rows": [
+    {
+      "pair": "C18_0064",
+      "gamma": 1280000,
+      "gamma_exact_integer": 1280000,
+      "alpha": "1.999",
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.0001401804922009093630311299838228922776717380544914445420411608367881914409016945384045",
+        "upper_decimal": "0.0001401804922009093630311299838228922776717380544914445420411608367881914409017788759881"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1663033286470057799983843053644542653734676095024155872970084146800218150019644609268",
+            "upper_decimal": "0.1663033286485288000016157091536332313530125646917554038672903971018968150019644609269"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.641089506924765000000000134935213936092523099453428170411956434418532246866122584130E-11",
+            "upper_decimal": "1.641089506924765000000000134935213936092523099453428170411956434418532246866122584131E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993459915350707928411936921354858523526192843942403369848193270700191590937633575947",
+            "upper_decimal": "2.993459915673518400341605639970716393262111783056020313207568270700191590937633575948"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C18_0064_N65536_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C18_0064_N65536_K524288_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1663033686624212914547878692860017690061663614550444001416451555996900424361217048400",
+            "upper_decimal": "0.1663033686639442700025327685552135403038714883813473099927193743496900424361217048401"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.642683977212903439348725144760413563056594836092540486418978978145439759361838467118E-11",
+            "upper_decimal": "1.642683977212903439348725144760413563056594836092540486418978978145439759361838467119E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993460635627900129986812873830575186424361594332496248050795875766712655817059540200",
+            "upper_decimal": "2.993460635950996860346635988228529855099445261372367463871108375766712655817059540201"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C18_0064_N65536_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C18_0064_N65536_K524288_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "-7.206002889321515395013707722183747429776039524363080713550665210648794087143020383415E-7",
+        "upper_decimal": "-7.199543817294283667993627579063607592511024875925580713550665210648794087143020383414E-7"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "-7.206002889321515395013707722183747429776039524363080713550665210648794087143020383415E-7",
+        "upper_decimal": "-7.199543817294283667993627579063607592511024875925580713550665210648794087143020383414E-7"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "-0.00514051763457246124744415283203125",
+        "upper_decimal": "-0.0051359099088585935533046722412109375"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "-0.00514051763457246124744415283203125",
+        "upper_decimal": "-0.0051359099088585935533046722412109375"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "-0.005133621543750749318763148195573931821806363410643103904336281454949999999999944492806",
+        "upper_decimal": "-0.005126378574504159027031157321760302671415738410643103904336281454949999999999944492805"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.27581043564714491367340087890625",
+        "upper_decimal": "0.27581043564714491367340087890625"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.27581043564714491367340087890625",
+        "upper_decimal": "0.27581043564714491367340087890625"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.2056863159523345530033111572265625",
+        "upper_decimal": "0.2056863159523345530033111572265625"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": -0.0051299660209977215
+    },
+    {
+      "pair": "C18_0189",
+      "gamma": 1280000,
+      "gamma_exact_integer": 1280000,
+      "alpha": "1.999",
+      "alpha_exact_decimal": "1.999",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.0001401804922009093630311299838228922776717380544914445420411608367881914409016945384045",
+        "upper_decimal": "0.0001401804922009093630311299838228922776717380544914445420411608367881914409017788759881"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662954434755034294185206662984140378472162421108915958400942258776922244578591568832",
+            "upper_decimal": "0.1662954434770264056115139722006708665349848171477898511882997922839422244578591568833"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.262553800329808700000000034013898422769764030247451167176401573477361817490769353449E-12",
+            "upper_decimal": "1.262553800329808700000000034013898422769764030247451167176401573477361817490769353450E-12"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993317982536335761049820674310515806097046815346925125315838634200122426080078629866",
+            "upper_decimal": "2.993317982586475301084866262073012472170322079699485168650799571700122426080078629867"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C18_0189_N262144_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C18_0189_N262144_K1048576_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1662954334851119399985262473934158152500388554899737880710119952709646895527831428109",
+            "upper_decimal": "0.1662954334866349200014737500455155690671220385839015887263769855053396895527831428110"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "1.262688565824324702994014161987208916298986257191877688517949700302042993229297625066E-12",
+            "upper_decimal": "1.262688565824324702994014161987208916298986257191877688517949700302042993229297625067E-12"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.993317802709286525732299250666437559586968693547956840118121584040077864647295185565",
+            "upper_decimal": "2.993317802759428560082862858580435103206157639288418189605426271540077864647295185566"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C18_0189_N262144_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C18_0189_N262144_K1048576_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "1.797769072010211679243543559245912618161020040212817014251600445614327903838803556215E-7",
+        "upper_decimal": "1.798771887752983569027822996908829807461080312429613889251600445614327903838803556216E-7"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "1.797769072010211679243543559245912618161020040212817014251600445614327903838803556215E-7",
+        "upper_decimal": "1.798771887752983569027822996908829807461080312429613889251600445614327903838803556216E-7"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "0.00128246736494475044310092926025390625",
+        "upper_decimal": "0.001283182753468281589448451995849609375"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "0.00128246736494475044310092926025390625",
+        "upper_decimal": "0.001283182753468281589448451995849609375"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.001278199233115703789123783261555508529369167029105604435531484523500000000000005152743",
+        "upper_decimal": "0.001283224641606825441456150637048558150951198279105604435531484523500000000000005152744"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.3898865547962486743927001953125",
+        "upper_decimal": "0.3898865547962486743927001953125"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.3898865547962486743927001953125",
+        "upper_decimal": "0.3898865547962486743927001953125"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.1941431314335204660892486572265625",
+        "upper_decimal": "0.1941431314335204660892486572265625"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": 0.001280696375163588
+    },
+    {
+      "pair": "C20_0201",
+      "gamma": 1280000,
+      "gamma_exact_integer": 1280000,
+      "alpha": "1.997",
+      "alpha_exact_decimal": "1.997",
+      "width_exact_rational": "1/32",
+      "epsilon_interval": {
+        "lower_decimal": "0.0001391963535362936235822245642411348349643685040875423328767813677855829958688565775356",
+        "upper_decimal": "0.0001391963535362936235822245642411348349643685040875423328767813677855829958689409151192"
+      },
+      "models": {
+        "A": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1497928306355330863011839636304868998529701422687751555251622903597308322787279321581",
+            "upper_decimal": "0.1497928306371450500019288147758613364935928040670362615394139993441058322787279321582"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "5.370547672799004000000000372532252350282533890550133657548301805090620875127177931077E-11",
+            "upper_decimal": "5.370547672799004000000000372532252350282533890550133657548301805090620875127177931078E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.995856611636552190163674231122555078229932047009670351903249531283536465065438285441",
+            "upper_decimal": "2.995856612742901001338780537004409574194876409650051211278249531283536465065438285442"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C20_0201_N65536_K1048576_A_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C20_0201_N65536_K524288_A_derivative_certificate.json"
+        },
+        "B": {
+          "continuous_trial_energy": {
+            "lower_decimal": "0.1497927579780078399790112192240934118422979256709325177228386838379492473904962175961",
+            "upper_decimal": "0.1497927579796198005474282314230651946082639799558776480710442502441992473904962175962"
+          },
+          "green_defect_upper": {
+            "lower_decimal": "5.394773548239785000000000101607744155890103537892112254326039493771294958124353153709E-11",
+            "upper_decimal": "5.394773548239785000000000101607744155890103537892112254326039493771294958124353153710E-11"
+          },
+          "tau_interval": {
+            "lower_decimal": "2.995855158481202087906149958632048704116788329071730464305868115388880998432716660460",
+            "upper_decimal": "2.995855159592396012974682054311123404572900952286452143993368115388880998432716660461"
+          },
+          "energy_file": "code/models/extended_models/second_rate/solver/C20_0201_N65536_K1048576_B_energy_safe_square.json",
+          "derivative_file": "code/models/extended_models/second_rate/solver/C20_0201_N65536_K524288_B_derivative_certificate.json"
+        }
+      },
+      "delta_tau_interval": {
+        "lower_decimal": "0.000001452044156177188992176811431673657031094723218207909881415894655466632701699519114298",
+        "upper_decimal": "0.000001454261698913432630578372360870078088080578320746972381415894655466632701699519114299"
+      },
+      "finite_rate_gap_interval": {
+        "lower_decimal": "0.000001452044156177188992176811431673657031094723218207909881415894655466632701699519114298",
+        "upper_decimal": "0.000001454261698913432630578372360870078088080578320746972381415894655466632701699519114299"
+      },
+      "d_gamma_interval": {
+        "lower_decimal": "0.010431624905322678387165069580078125",
+        "upper_decimal": "0.010447556036524474620819091796875"
+      },
+      "finite_rate_normalized_amplitude_interval": {
+        "lower_decimal": "0.010431624905322678387165069580078125",
+        "upper_decimal": "0.010447556036524474620819091796875"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.01039117401098846660674294100909088636401929462177227630511134246699999999999997960746",
+        "upper_decimal": "0.01045463637542579438517545925288055921558179462177227630511134246699999999999997960747"
+      },
+      "r_gamma_percent_upper": {
+        "lower_decimal": "0.5425960761494934558868408203125",
+        "upper_decimal": "0.5425960761494934558868408203125"
+      },
+      "relative_percent_to_every_true_leading_amplitude_upper": {
+        "lower_decimal": "0.5425960761494934558868408203125",
+        "upper_decimal": "0.5425960761494934558868408203125"
+      },
+      "relative_percent_to_frozen_prediction_upper": {
+        "lower_decimal": "0.242700241622515022754669189453125",
+        "upper_decimal": "0.242700241622515022754669189453125"
+      },
+      "one_percent": true,
+      "one_percent_to_true_amplitude_proved": true,
+      "frozen_numerical_prediction_display": 0.010422261233329492
+    }
+  ]
+}

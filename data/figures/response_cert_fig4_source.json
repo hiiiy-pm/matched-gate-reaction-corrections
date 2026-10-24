@@ -1,0 +1,188 @@
+{
+  "formula_amplitude": "100 * (d_gamma / C_infinity - 1), all interval endpoint combinations",
+  "formula_gap": "delta_tau_interval * 10^7",
+  "pointwise_rows": [
+    {
+      "pair": "C18_0064",
+      "display_name": "Pair I",
+      "alpha": "1.999",
+      "gamma": 2560000,
+      "normalized_gap_interval": {
+        "lower_decimal": "-0.0051452981206239201128482818603515625",
+        "upper_decimal": "-0.0051262817651149816811084747314453125"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "-0.005133621543750749318763148195573931821806363410643103904336281454949999999999944492806",
+        "upper_decimal": "-0.005126378574504159027031157321760302671415738410643103904336281454949999999999944492805"
+      },
+      "deviation_percent_plot_outward": [
+        -0.1429746733999604,
+        0.3690626013041
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "-5.099267894270220899361838365766340848424231017544227845525716220799331267144565374026E-7",
+        "upper_decimal": "-5.080421697340786887881840431109191831567083800747352845525716220799331267144565374025E-7"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        -5.099267894270222,
+        -5.080421697340786
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.3690632996149361133575439453125",
+      "display_upper_percent_outward": "0.370"
+    },
+    {
+      "pair": "C18_0064",
+      "display_name": "Pair I",
+      "alpha": "1.999",
+      "gamma": 1280000,
+      "normalized_gap_interval": {
+        "lower_decimal": "-0.00514051763457246124744415283203125",
+        "upper_decimal": "-0.0051359099088585935533046722412109375"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "-0.005133621543750749318763148195573931821806363410643103904336281454949999999999944492806",
+        "upper_decimal": "-0.005126378574504159027031157321760302671415738410643103904336281454949999999999944492805"
+      },
+      "deviation_percent_plot_outward": [
+        0.04457603834528672,
+        0.27580990874576217
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "-7.206002889321515395013707722183747429776039524363080713550665210648794087143020383415E-7",
+        "upper_decimal": "-7.199543817294283667993627579063607592511024875925580713550665210648794087143020383414E-7"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        -7.206002889321517,
+        -7.199543817294283
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.27581043564714491367340087890625",
+      "display_upper_percent_outward": "0.276"
+    },
+    {
+      "pair": "C18_0189",
+      "display_name": "Pair II",
+      "alpha": "1.999",
+      "gamma": 2560000,
+      "normalized_gap_interval": {
+        "lower_decimal": "0.0012811377309844829142093658447265625",
+        "upper_decimal": "0.00128326453341287560760974884033203125"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.001278199233115703789123783261555508529369167029105604435531484523500000000000005152743",
+        "upper_decimal": "0.001283224641606825441456150637048558150951198279105604435531484523500000000000005152744"
+      },
+      "deviation_percent_plot_outward": [
+        -0.16263018607009794,
+        0.3962840976539143
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "1.269676585394274507062993557368297785976337135501343132035863782487738848539086536884E-7",
+        "upper_decimal": "1.271784351064174709372954503336057257363008201785522819535863782487738848539086536885E-7"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        1.2696765853942742,
+        1.2717843510641749
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.3962847408838570117950439453125",
+      "display_upper_percent_outward": "0.397"
+    },
+    {
+      "pair": "C18_0189",
+      "display_name": "Pair II",
+      "alpha": "1.999",
+      "gamma": 1280000,
+      "normalized_gap_interval": {
+        "lower_decimal": "0.00128246736494475044310092926025390625",
+        "upper_decimal": "0.001283182753468281589448451995849609375"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.001278199233115703789123783261555508529369167029105604435531484523500000000000005152743",
+        "upper_decimal": "0.001283224641606825441456150637048558150951198279105604435531484523500000000000005152744"
+      },
+      "deviation_percent_plot_outward": [
+        -0.059013569216279496,
+        0.3898860383783917
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "1.797769072010211679243543559245912618161020040212817014251600445614327903838803556215E-7",
+        "upper_decimal": "1.798771887752983569027822996908829807461080312429613889251600445614327903838803556216E-7"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        1.7977690720102115,
+        1.7987718877529837
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.3898865547962486743927001953125",
+      "display_upper_percent_outward": "0.390"
+    },
+    {
+      "pair": "C20_0201",
+      "display_name": "Pair III",
+      "alpha": "1.997",
+      "gamma": 2560000,
+      "normalized_gap_interval": {
+        "lower_decimal": "0.01040781315532512962818145751953125",
+        "upper_decimal": "0.01046131635666824877262115478515625"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.01039117401098846660674294100909088636401929462177227630511134246699999999999997960746",
+        "upper_decimal": "0.01045463637542579438517545925288055921558179462177227630511134246699999999999997960747"
+      },
+      "deviation_percent_plot_outward": [
+        -0.4478703841936134,
+        0.6750184878591003
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "0.000001023873346602646238337867171980434058833245600691613088567143897960199800040492399505",
+        "upper_decimal": "0.000001029136740483107613911398940148756800818566645613488088567143897960199800040492399506"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        10.23873346602646,
+        10.291367404831078
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.675019343383610248565673828125",
+      "display_upper_percent_outward": "0.676"
+    },
+    {
+      "pair": "C20_0201",
+      "display_name": "Pair III",
+      "alpha": "1.997",
+      "gamma": 1280000,
+      "normalized_gap_interval": {
+        "lower_decimal": "0.010431624905322678387165069580078125",
+        "upper_decimal": "0.010447556036524474620819091796875"
+      },
+      "true_leading_amplitude_interval": {
+        "lower_decimal": "0.01039117401098846660674294100909088636401929462177227630511134246699999999999997960746",
+        "upper_decimal": "0.01045463637542579438517545925288055921558179462177227630511134246699999999999997960747"
+      },
+      "deviation_percent_plot_outward": [
+        -0.2201077998007252,
+        0.5425953359686319
+      ],
+      "delta_tau_interval": {
+        "lower_decimal": "0.000001452044156177188992176811431673657031094723218207909881415894655466632701699519114298",
+        "upper_decimal": "0.000001454261698913432630578372360870078088080578320746972381415894655466632701699519114299"
+      },
+      "delta_tau_times_1e7_plot_outward": [
+        14.520441561771888,
+        14.542616989134329
+      ],
+      "certified_relative_error_upper_percent_decimal": "0.5425960761494934558868408203125",
+      "display_upper_percent_outward": "0.543"
+    }
+  ],
+  "interval_definition": "Deterministic arithmetic enclosures, not confidence intervals; no midpoint is shown.",
+  "visual_guides": "Faint horizontal lines connect zero to the nearest enclosure endpoint; their styles encode rate, and they are not added observations.",
+  "coverage": {
+    "pointwise_certificates_input": 6,
+    "amplitude_intervals_plotted": 6,
+    "continuous_gap_intervals_plotted": 6,
+    "excluded": 0
+  },
+  "parameters": {
+    "width": "1/32",
+    "D": "(2*pi)^(-alpha)",
+    "initial_law": "uniform position times stationary gate",
+    "epsilon": "(D/gamma)^(1/alpha)"
+  }
+}

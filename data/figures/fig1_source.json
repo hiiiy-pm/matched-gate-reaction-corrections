@@ -1,0 +1,193 @@
+{
+  "masks": {
+    "A": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      11,
+      12,
+      14
+    ],
+    "B": [
+      0,
+      1,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      14
+    ]
+  },
+  "changed_sites": [
+    5,
+    7,
+    8,
+    10
+  ],
+  "matrix_matches": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "matrix_columns": [
+    "C2",
+    "C3",
+    "C4",
+    "duration1",
+    "duration2",
+    "duration3",
+    "duration4"
+  ],
+  "matrix_numeric_witnesses": [
+    {
+      "4": "2/5445"
+    },
+    {
+      "6": "11/1764000"
+    },
+    {
+      "4": "13/6534"
+    }
+  ],
+  "C4_derivative_orders": [
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      1,
+      5
+    ],
+    [
+      1,
+      1,
+      2
+    ]
+  ],
+  "covariance": [
+    "7/450",
+    "-7/1800"
+  ],
+  "ppm_definition": "1e6*(tau_A-tau_B)/((tau_A+tau_B)/2)",
+  "ppm_display_outward": [
+    "0.04242",
+    "0.04250"
+  ],
+  "ppm_exact_rational_enclosure": [
+    "317419146348568626765748389342074446494084283875335783008965945621934712134771634221/7482473629901685560724773287017274257842959876133943782792712074269092300744719583075",
+    "84785623404278313958196966889070483824200546785701521302390918832515923235939102459/1995326301236857293863266132872574936499473587413349465938733636471757946865258555486"
+  ],
+  "finite_rate_certificate": {
+    "pair": "C18_0189",
+    "gamma": 2560000,
+    "gamma_exact_integer": 2560000,
+    "alpha": "1.999",
+    "alpha_exact_decimal": "1.999",
+    "width_exact_rational": "1/32",
+    "epsilon_interval": {
+      "lower_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801575782539591",
+      "upper_decimal": "0.00009910539288873357188611585114821423683990617573275798199165707947431896801581686170441"
+    },
+    "models": {
+      "A": {
+        "continuous_trial_energy": {
+          "lower_decimal": "0.1662771953023538499963119273579721821801425052844355945147469810763141140341737366845",
+          "upper_decimal": "0.1662771953053997800036880727038708813705991874020914678133920006075641140341737366846"
+        },
+        "green_defect_upper": {
+          "lower_decimal": "2.808797332929481400000000044955776100923252529889933739342000881135901066074102617789E-12",
+          "upper_decimal": "2.808797332929481400000000044955776100923252529889933739342000881135901066074102617790E-12"
+        },
+        "tau_interval": {
+          "lower_decimal": "2.992989515391810947876466857124439451126373504896874336402014869000826044684839347519",
+          "upper_decimal": "2.992989515497196040130802478788735691977772993643994239966467994000826044684839347520"
+        },
+        "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_A_energy_safe_square.json",
+        "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_A_derivative_certificate.json"
+      },
+      "B": {
+        "continuous_trial_energy": {
+          "lower_decimal": "0.1662771882427403199970266883277752701314121952795750669640284513661754317581635563476",
+          "upper_decimal": "0.1662771882457862449052644912027859281305674233057863287132960294911754317581635563477"
+        },
+        "green_defect_upper": {
+          "lower_decimal": "2.809157004382974401762916447055053885009459694997386089078886192880524160257380263206E-12",
+          "upper_decimal": "2.809157004382974401762916447055053885009459694997386089078886192880524160257380263207E-12"
+        },
+        "tau_interval": {
+          "lower_decimal": "2.992989388318760933713331541493285358372047257343174061414186040414447795910936318939",
+          "upper_decimal": "2.992989388424152408449016150825083714296594907263160786267701665414447795910936318940"
+        },
+        "energy_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_B_energy_safe_square.json",
+        "derivative_file": "code/models/finite_rate/current_rate_certification/solver/C18_0189_N262144_K1048576_B_derivative_certificate.json"
+      }
+    },
+    "delta_tau_interval": {
+      "lower_decimal": "1.269676585394274507062993557368297785976337135501343132035863782487738848539086536884E-7",
+      "upper_decimal": "1.271784351064174709372954503336057257363008201785522819535863782487738848539086536885E-7"
+    },
+    "finite_rate_gap_interval": {
+      "lower_decimal": "1.269676585394274507062993557368297785976337135501343132035863782487738848539086536884E-7",
+      "upper_decimal": "1.271784351064174709372954503336057257363008201785522819535863782487738848539086536885E-7"
+    },
+    "d_gamma_interval": {
+      "lower_decimal": "0.0012811377309844829142093658447265625",
+      "upper_decimal": "0.00128326453341287560760974884033203125"
+    },
+    "finite_rate_normalized_amplitude_interval": {
+      "lower_decimal": "0.0012811377309844829142093658447265625",
+      "upper_decimal": "0.00128326453341287560760974884033203125"
+    },
+    "true_leading_amplitude_interval": {
+      "lower_decimal": "0.001278199233115703789123783261555508529369167029105604435531484523500000000000005152743",
+      "upper_decimal": "0.001283224641606825441456150637048558150951198279105604435531484523500000000000005152744"
+    },
+    "r_gamma_percent_upper": {
+      "lower_decimal": "0.3962847408838570117950439453125",
+      "upper_decimal": "0.3962847408838570117950439453125"
+    },
+    "relative_percent_to_every_true_leading_amplitude_upper": {
+      "lower_decimal": "0.3962847408838570117950439453125",
+      "upper_decimal": "0.3962847408838570117950439453125"
+    },
+    "relative_percent_to_frozen_prediction_upper": {
+      "lower_decimal": "0.200528837856836616992950439453125",
+      "upper_decimal": "0.200528837856836616992950439453125"
+    },
+    "one_percent": true,
+    "one_percent_to_true_amplitude_proved": true,
+    "frozen_numerical_prediction_display": 0.001280696375163588
+  },
+  "scope": "Pair II duration identities: either stationary entrance. Pair I/III nonzero adjacent on/off probes imply higher-order mismatch by marginalization."
+}

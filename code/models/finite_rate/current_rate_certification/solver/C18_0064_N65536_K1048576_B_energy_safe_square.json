@@ -1,0 +1,56 @@
+{
+  "witness": "C18_0064",
+  "label": "B",
+  "N": 65536,
+  "gamma": "2560000.0",
+  "alpha": "1.999",
+  "fourier_cutoff": 1048576,
+  "precision_bits": 100,
+  "G0_energy": [
+    0.3704948259658582,
+    0.3704948259658583
+  ],
+  "gate_zero_mode_energy": [
+    3.335929163906571e-08,
+    3.3359291639065723e-08
+  ],
+  "finite_gate_correction_energy": [
+    -0.20421203183966855,
+    -0.2042120318396685
+  ],
+  "gate_energy_tail_bound": [
+    3.0458589520721596e-12,
+    3.0458589520721604e-12
+  ],
+  "exact_continuous_trial_green_energy": [
+    0.16628279412314384,
+    0.16628279412618976
+  ],
+  "tau_variational_upper_ball": [
+    2.993090294216589,
+    2.9930902942714153
+  ],
+  "source_total_variation": [
+    0.9999999999999999,
+    1.0000000000000002
+  ],
+  "analytic_diagnostics": {
+    "series_J": 10,
+    "uniform_G0_remainder_bound": [
+      3.652676453362401e-35,
+      3.652676453362402e-35
+    ],
+    "G0_energy_remainder_bound": [
+      3.652676453362401e-35,
+      3.652676453362402e-35
+    ],
+    "target_convolution_length": 4096
+  },
+  "seconds": 50.87538610000047,
+  "flint_version": "0.9.0",
+  "trial_path": "code/models/continuous_space/rigorous_certification/continuum/C18_0064_N65536_enriched_trial.json",
+  "trial_sha256": "7088da27254617e781c7cb4345910efb433c26f832490cf592d2170097c59d35",
+  "source_sha256": "8af0db1ab0e4d447dddf808fab428da9bf6e786087a709358879ce52fa322ea2",
+  "engine_source_filename": "green_energy_enclosure_safe_square.py",
+  "status": "conditional_on_Arb_ball_arithmetic_and_stated_analytic_lemma"
+}

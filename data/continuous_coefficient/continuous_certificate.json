@@ -1,0 +1,335 @@
+{
+  "status": "PASS_COMPLETE_CONTINUOUS_RANGE",
+  "pair": "II / C18_0189",
+  "masks": {
+    "A": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      11,
+      12,
+      14
+    ],
+    "B": [
+      0,
+      1,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      14
+    ]
+  },
+  "alpha_requested": [
+    "19/10",
+    "2"
+  ],
+  "endpoint_2_included": true,
+  "precision_bits": 250,
+  "slabs": [
+    {
+      "alpha_lo": "19/10",
+      "alpha_hi": "381/200",
+      "lower_bound": 2.873619624567432e-05,
+      "panels": 3813,
+      "file": "19_10__381_200_certificate.json",
+      "sha256": "ceba5ac16153361e6444d84e6b53a7a65758d07bccd008dac7673535f431e482"
+    },
+    {
+      "alpha_lo": "381/200",
+      "alpha_hi": "191/100",
+      "lower_bound": 2.8652558529282716e-05,
+      "panels": 3200,
+      "file": "381_200__191_100_certificate.json",
+      "sha256": "bdfba2cfada44260e5dec6306d4339dca16d09e9de465eadff99b6692ccb2c95"
+    },
+    {
+      "alpha_lo": "191/100",
+      "alpha_hi": "383/200",
+      "lower_bound": 2.8558792655504747e-05,
+      "panels": 2678,
+      "file": "191_100__383_200_certificate.json",
+      "sha256": "a3907b94dfb611d49e01fa4dbde69f6319bfb7517931c510ccc9d06ef463691f"
+    },
+    {
+      "alpha_lo": "383/200",
+      "alpha_hi": "48/25",
+      "lower_bound": 2.8471553421954608e-05,
+      "panels": 2321,
+      "file": "383_200__48_25_certificate.json",
+      "sha256": "a4d5cfefa9c8d9616a5955a422b536240a6023ea69afb7dcbc52147241f5c480"
+    },
+    {
+      "alpha_lo": "48/25",
+      "alpha_hi": "77/40",
+      "lower_bound": 2.8388255685769872e-05,
+      "panels": 2031,
+      "file": "48_25__77_40_certificate.json",
+      "sha256": "c95ae05e699d76cd23a6d675b0bb2641a86c5a65d3c975562384475225e9eee0"
+    },
+    {
+      "alpha_lo": "77/40",
+      "alpha_hi": "193/100",
+      "lower_bound": 2.8304798721292663e-05,
+      "panels": 1766,
+      "file": "77_40__193_100_certificate.json",
+      "sha256": "ba8445f6d80e3b1f6ee39b99768846d3a9255d73891124b6d4a9b2e6e6b3a549"
+    },
+    {
+      "alpha_lo": "193/100",
+      "alpha_hi": "387/200",
+      "lower_bound": 2.821428398959327e-05,
+      "panels": 1556,
+      "file": "193_100__387_200_certificate.json",
+      "sha256": "bbba23580f76f8c1d1f5d88b44158398a7779f582053beccd90a9c8cbf02f4c6"
+    },
+    {
+      "alpha_lo": "387/200",
+      "alpha_hi": "97/50",
+      "lower_bound": 2.812522400487242e-05,
+      "panels": 1376,
+      "file": "387_200__97_50_certificate.json",
+      "sha256": "3c3c3dc89e49086c155d86c60221047703121d1e2b2b49cc53b7072430541992"
+    },
+    {
+      "alpha_lo": "97/50",
+      "alpha_hi": "389/200",
+      "lower_bound": 2.8062359868183748e-05,
+      "panels": 1224,
+      "file": "97_50__389_200_certificate.json",
+      "sha256": "74213ebc22c808c508d15c4e43a3dc3f783202f090d0faae2c20813b1290c065"
+    },
+    {
+      "alpha_lo": "389/200",
+      "alpha_hi": "39/20",
+      "lower_bound": 2.7953541841868613e-05,
+      "panels": 1085,
+      "file": "389_200__39_20_certificate.json",
+      "sha256": "8469de44c5a6e2d1bb96f1a744b1d21eb56714a07f87e0b5ad3f9fd3630b3a81"
+    },
+    {
+      "alpha_lo": "39/20",
+      "alpha_hi": "391/200",
+      "lower_bound": 2.7891505299310682e-05,
+      "panels": 953,
+      "file": "39_20__391_200_certificate.json",
+      "sha256": "07635452016b917f1576025608d9fceda6c9f9c8d7e4ad345a2b10ba30d44f78"
+    },
+    {
+      "alpha_lo": "391/200",
+      "alpha_hi": "49/25",
+      "lower_bound": 2.778626622827113e-05,
+      "panels": 838,
+      "file": "391_200__49_25_certificate.json",
+      "sha256": "368c2af77ae274e40f4d10a327b27aa3c585f6a262d4b1e5873dde1f64edd3ce"
+    },
+    {
+      "alpha_lo": "49/25",
+      "alpha_hi": "393/200",
+      "lower_bound": 2.7692058152626467e-05,
+      "panels": 733,
+      "file": "49_25__393_200_certificate.json",
+      "sha256": "70a855dd8d6d368e5a0f278b62a630426b77eaee3513f5049d98f561791833ac"
+    },
+    {
+      "alpha_lo": "393/200",
+      "alpha_hi": "197/100",
+      "lower_bound": 2.761405061701206e-05,
+      "panels": 639,
+      "file": "393_200__197_100_certificate.json",
+      "sha256": "b972c6dd920477b7624a0944ff68408af588411601c29a87ec46272f0338a0dc"
+    },
+    {
+      "alpha_lo": "197/100",
+      "alpha_hi": "79/40",
+      "lower_bound": 2.7544283462821283e-05,
+      "panels": 548,
+      "file": "197_100__79_40_certificate.json",
+      "sha256": "f68b80b0656babdef7e0daa36ecdc5d8c0c7f9d8ae4f571ed635918546664dd4"
+    },
+    {
+      "alpha_lo": "79/40",
+      "alpha_hi": "99/50",
+      "lower_bound": 2.749089935050251e-05,
+      "panels": 462,
+      "file": "79_40__99_50_certificate.json",
+      "sha256": "c910116d0ef50ec0e244a42412175bd10032137b0641f7ee5874a6a71336ca0a"
+    },
+    {
+      "alpha_lo": "99/50",
+      "alpha_hi": "397/200",
+      "lower_bound": 2.7352495242420493e-05,
+      "panels": 383,
+      "file": "99_50__397_200_certificate.json",
+      "sha256": "7038eb7c7bb4b727e75c7b8b36a394aedf458441843461cc4dc35d62950ae7a4"
+    },
+    {
+      "alpha_lo": "397/200",
+      "alpha_hi": "199/100",
+      "lower_bound": 2.7250140748458446e-05,
+      "panels": 307,
+      "file": "397_200__199_100_certificate.json",
+      "sha256": "c93e224819e54ae7927c953c2d37ec664ef74b91320e0ac1bd156da7755627f0"
+    },
+    {
+      "alpha_lo": "199/100",
+      "alpha_hi": "399/200",
+      "lower_bound": 2.730028171012801e-05,
+      "panels": 236,
+      "file": "199_100__399_200_certificate.json",
+      "sha256": "e62e5603d0b70b750201b485671e9b6f05e0cf53be48512efc11f9d5508600b6"
+    },
+    {
+      "alpha_lo": "399/200",
+      "alpha_hi": "2",
+      "lower_bound": 2.832256002165683e-05,
+      "panels": 168,
+      "file": "399_200__2_1_certificate.json",
+      "sha256": "a2af2bd09903dc3fd9bef91d589ffc8d2617587dd004341922902a259cdca1ce"
+    }
+  ],
+  "attempts": [
+    {
+      "alpha_lo": "19/10",
+      "alpha_hi": "381/200",
+      "positive": true,
+      "file": "19_10__381_200_certificate.json"
+    },
+    {
+      "alpha_lo": "381/200",
+      "alpha_hi": "191/100",
+      "positive": true,
+      "file": "381_200__191_100_certificate.json"
+    },
+    {
+      "alpha_lo": "191/100",
+      "alpha_hi": "383/200",
+      "positive": true,
+      "file": "191_100__383_200_certificate.json"
+    },
+    {
+      "alpha_lo": "383/200",
+      "alpha_hi": "48/25",
+      "positive": true,
+      "file": "383_200__48_25_certificate.json"
+    },
+    {
+      "alpha_lo": "48/25",
+      "alpha_hi": "77/40",
+      "positive": true,
+      "file": "48_25__77_40_certificate.json"
+    },
+    {
+      "alpha_lo": "77/40",
+      "alpha_hi": "193/100",
+      "positive": true,
+      "file": "77_40__193_100_certificate.json"
+    },
+    {
+      "alpha_lo": "193/100",
+      "alpha_hi": "387/200",
+      "positive": true,
+      "file": "193_100__387_200_certificate.json"
+    },
+    {
+      "alpha_lo": "387/200",
+      "alpha_hi": "97/50",
+      "positive": true,
+      "file": "387_200__97_50_certificate.json"
+    },
+    {
+      "alpha_lo": "97/50",
+      "alpha_hi": "389/200",
+      "positive": true,
+      "file": "97_50__389_200_certificate.json"
+    },
+    {
+      "alpha_lo": "389/200",
+      "alpha_hi": "39/20",
+      "positive": true,
+      "file": "389_200__39_20_certificate.json"
+    },
+    {
+      "alpha_lo": "39/20",
+      "alpha_hi": "391/200",
+      "positive": true,
+      "file": "39_20__391_200_certificate.json"
+    },
+    {
+      "alpha_lo": "391/200",
+      "alpha_hi": "49/25",
+      "positive": true,
+      "file": "391_200__49_25_certificate.json"
+    },
+    {
+      "alpha_lo": "49/25",
+      "alpha_hi": "393/200",
+      "positive": true,
+      "file": "49_25__393_200_certificate.json"
+    },
+    {
+      "alpha_lo": "393/200",
+      "alpha_hi": "197/100",
+      "positive": true,
+      "file": "393_200__197_100_certificate.json"
+    },
+    {
+      "alpha_lo": "197/100",
+      "alpha_hi": "79/40",
+      "positive": true,
+      "file": "197_100__79_40_certificate.json"
+    },
+    {
+      "alpha_lo": "79/40",
+      "alpha_hi": "99/50",
+      "positive": true,
+      "file": "79_40__99_50_certificate.json"
+    },
+    {
+      "alpha_lo": "99/50",
+      "alpha_hi": "397/200",
+      "positive": true,
+      "file": "99_50__397_200_certificate.json"
+    },
+    {
+      "alpha_lo": "397/200",
+      "alpha_hi": "199/100",
+      "positive": true,
+      "file": "397_200__199_100_certificate.json"
+    },
+    {
+      "alpha_lo": "199/100",
+      "alpha_hi": "399/200",
+      "positive": true,
+      "file": "199_100__399_200_certificate.json"
+    },
+    {
+      "alpha_lo": "399/200",
+      "alpha_hi": "2",
+      "positive": true,
+      "file": "399_200__2_1_certificate.json"
+    }
+  ],
+  "source_sha256": {
+    "arb_dual_check.py": "04bade066cbe6bfa6055f8b6f7f77392f5be3f19e6651d39b445cc7813a0dbe7",
+    "certify_dual_point.py": "96ee211f416f9597ca8a3c98a54c6af8f0c9752c881ca22de92b39fedab81b2e",
+    "continuous_engine.py": "91c32f8dc09ff6b03a002659edeba70afa5848f4f18729acf3eb60399624866c",
+    "dual_probe.py": "b81aec21c7585307ed54c96c80e52db2615f197cc12f8c570ef514329ae4ecc0",
+    "exponential_galerkin.py": "6957a5eb6c328b9bd82c98d1f1369be81861a0d84f9ab7dbdb9f5b0c3d48cd89",
+    "extended_source_residual_pilot.py": "3982b36939ccf3377a06ae58e4ab6b0a4b84775f08ac6b0be37f85a242f7bb75",
+    "interval_engine.py": "83d1987777af8a9ba31d42afa57225ae392df64c9b795ae6d3a551fa56d5aad0",
+    "interval_engine_arb.py": "3b864f7bbcfcbeb0a6454d20203c2d7ccfb921a681d9a697d3036280e7b92a26",
+    "interval_residual_pilot.py": "e31fc5bf116f7dab3536deec43d0e863eb2b4c0dc8d0bb5085e8013c5fa155bf",
+    "probe_imports.py": "cc3f892f7806fe47fe2c7f34859e053bf9be465b8c9d34e3dc5ea8b485a6d83e",
+    "recheck_mpmath.py": "8003a739dcb493c7910d5b9326cb65effd6ceacbb0738c3c3b5511fa61ce8771",
+    "run_continuous.py": "9def11d126d4fe2d75829ea353dc0fcd1e2130a01f583c0adec140bfd9eb7a03",
+    "verify_continuous.py": "ee015fb95e3799b120b49afe52a4b415871f18f6a6c9dc5ae335670356dfe1da"
+  },
+  "seconds": 123.6770952000079,
+  "scope": "Local coefficient at theta=0. No extension of finite-rate or reset certificates."
+}

@@ -1,0 +1,161 @@
+{
+  "created": "2023-04-11T12:58:48.242431+00:00",
+  "modified": "2023-09-07T12:15:25.559758+00:00",
+  "id": 7817601,
+  "conceptrecid": "7817600",
+  "doi": "10.5281/zenodo.7817601",
+  "conceptdoi": "10.5281/zenodo.7817600",
+  "doi_url": "https://doi.org/10.5281/zenodo.7817601",
+  "metadata": {
+    "title": "Graphic user interfaces to process single-channel patch clamp recordings",
+    "doi": "10.5281/zenodo.7817601",
+    "publication_date": "2023-04-11",
+    "description": "<p>This archive contains raw experimental data and corresponding MATLAB analysis source code in the form of modules (applications with graphic user interfaces) regarding our article entitled &quot;A detailed analysis of single-channel Na<sub>v</sub>1.5 recordings does not reveal any cooperative gating&quot; that was published in 2023 in The Journal of Physiology (vol 601, pp. 3847-3868, https://dx.doi.org/10.1113/JP284861).<br>\nFirst, download the file &quot;Documentation.pdf&quot; and follow the instructions/descriptions provided in this file.</p>\n\n<p>We are greatly indebted to Benjamin Haeffele, Billy Kang and Manu Ben-Johny for sharing their MATLAB code to de-trend recordings.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Selimi, Zoja",
+        "affiliation": "Department of Physiology, University of Bern",
+        "orcid": "0000-0002-3760-4428"
+      },
+      {
+        "name": "Rougier, Jean-Sébastien",
+        "affiliation": "Institute of Biochemistry and Molecular Medicine, University of Bern",
+        "orcid": "0000-0002-8710-0260"
+      },
+      {
+        "name": "Abriel, Hugues",
+        "affiliation": "Institute of Biochemistry and Molecular Medicine, University of Bern",
+        "orcid": "0000-0003-0465-5138"
+      },
+      {
+        "name": "Kucera, Jan P.",
+        "affiliation": "Department of Physiology, University of Bern",
+        "orcid": "0000-0003-0310-6962"
+      }
+    ],
+    "keywords": [
+      "sodium channels",
+      "interactions between channels",
+      "cell-attached patch clamp",
+      "single-channel recordings",
+      "signal processing"
+    ],
+    "references": [
+      "Jos (10584) (2022). insertrows (https://www.mathworks.com/matlabcentral/fileexchange/9984-insertrows), MATLAB Central File Exchange. Retrieved October 27, 2022",
+      "Abrams J, Roybal D, Chakouri N, Katchman AN, Weinberg R, Yang L, Chen BX, Zakharov SI, Hennessey JA, Avula UMR, Diaz J, Wang C, Wan EY, Pitt GS, Ben-Johny M & Marx SO. (2020). Fibroblast growth factor homologous factors tune arrhythmogenic late Nav1.5 current in calmodulin binding-deficient channels. JCI Insight 5(19):e141736",
+      "Kang PW, Chakouri N, Diaz J, Tomaselli GF, Yue DT & Ben-Johny M. (2021). Elementary mechanisms of calmodulin regulation of Na(V)1.5 producing divergent arrhythmogenic phenotypes. Proc Natl Acad Sci USA 118(21):e2025085118",
+      "Chung SH, Kennedy RA. (1996). Coupled Markov chain model: characterization of membrane channel currents with multiple conductance sublevels as partially coupled elementary pores. Math Biosci 133(2):111-37"
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "310030_184783",
+        "internal_id": "10.13039/501100001711::310030_184783",
+        "funder": {
+          "name": "Swiss National Science Foundation",
+          "doi": "10.13039/501100001711",
+          "acronym": "SNSF"
+        },
+        "title": "Co-regulation of cardiac ion channels: focus on the sodium channel Nav1.5",
+        "program": "Project funding"
+      },
+      {
+        "code": "310030_184707",
+        "internal_id": "10.13039/501100001711::310030_184707",
+        "funder": {
+          "name": "Swiss National Science Foundation",
+          "doi": "10.13039/501100001711",
+          "acronym": "SNSF"
+        },
+        "title": "Understanding the roles of mechanical stretch and of sodium channel nanodomains in cardiac excitation: a multidisciplinary approach",
+        "program": "Project funding"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7817600"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Graphic user interfaces to process single-channel patch clamp recordings",
+  "links": {
+    "self": "https://zenodo.org/api/records/7817601",
+    "self_html": "https://zenodo.org/records/7817601",
+    "preview_html": "https://zenodo.org/records/7817601?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.7817601",
+    "self_doi": "https://doi.org/10.5281/zenodo.7817601",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7817601",
+    "reserve_doi": "https://zenodo.org/api/records/7817601/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/7817600",
+    "parent_html": "https://zenodo.org/records/7817600",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7817600",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7817600",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7817601/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7817601/sequence/default",
+    "files": "https://zenodo.org/api/records/7817601/files",
+    "media_files": "https://zenodo.org/api/records/7817601/media-files",
+    "latest": "https://zenodo.org/api/records/7817601/versions/latest",
+    "latest_html": "https://zenodo.org/records/7817601/latest",
+    "versions": "https://zenodo.org/api/records/7817601/versions",
+    "draft": "https://zenodo.org/api/records/7817601/draft",
+    "access_links": "https://zenodo.org/api/records/7817601/access/links",
+    "access_grants": "https://zenodo.org/api/records/7817601/access/grants",
+    "access_users": "https://zenodo.org/api/records/7817601/access/users",
+    "access_request": "https://zenodo.org/api/records/7817601/access/request",
+    "access": "https://zenodo.org/api/records/7817601/access",
+    "communities": "https://zenodo.org/api/records/7817601/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7817601/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/7817601/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/7817601/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/7817601/quota-increase",
+    "requests": "https://zenodo.org/api/records/7817601/requests"
+  },
+  "updated": "2023-09-07T12:15:25.559758+00:00",
+  "recid": "7817601",
+  "revision": 3,
+  "files": [
+    {
+      "id": "a8c5ccc8-d370-47ba-a886-17470d310dd6",
+      "key": "Modules.zip",
+      "size": 521125961,
+      "checksum": "md5:a21edd079be4d07e5270cf85674456e8",
+      "links": {
+        "self": "https://zenodo.org/api/records/7817601/files/Modules.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "143151"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 329,
+    "unique_downloads": 71,
+    "views": 352,
+    "unique_views": 322,
+    "version_downloads": 329,
+    "version_unique_downloads": 71,
+    "version_unique_views": 320,
+    "version_views": 350
+  },
+  "state": "done",
+  "submitted": true
+}

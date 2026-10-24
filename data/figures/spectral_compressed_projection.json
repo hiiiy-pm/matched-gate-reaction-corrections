@@ -1,0 +1,30 @@
+{
+  "all_pass": true,
+  "arithmetic": "exact SymPy Rational",
+  "identity": "H*H = M - M^2 in an orthonormal visible basis",
+  "pairs": [
+    {
+      "pair": "C18_0064",
+      "exact_common_compression": true,
+      "exact_common_total_orthogonal_gram": true,
+      "leakage_HS_squared": "2",
+      "Krylov_dimension": 10
+    },
+    {
+      "pair": "C18_0189",
+      "exact_common_compression": true,
+      "exact_common_total_orthogonal_gram": true,
+      "leakage_HS_squared": "2",
+      "Krylov_dimension": 10
+    },
+    {
+      "pair": "C20_0201",
+      "exact_common_compression": true,
+      "exact_common_total_orthogonal_gram": true,
+      "leakage_HS_squared": "2",
+      "Krylov_dimension": 10
+    }
+  ],
+  "closed_singleton_rank_3_of_4": true,
+  "interpretation": "C2/C3 fix total orthogonal Gram matrix; C4 can distinguish its distribution over intermediate decay rates."
+}
