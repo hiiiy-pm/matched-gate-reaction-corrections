@@ -9,13 +9,15 @@ Chaozhou 521041, China.
 ## Version and citation
 
 Version **1.0.0**, prepared on **2026-10-24**, corresponds to the submission
-materials with the title above. This version is identified by the full Git
-commit cited in the manuscript.
+materials with the title above. The frozen research snapshot is identified by
+Git commit `3290a54ed7f2e9433ffc507daae294784c7f8efd` and the Zenodo DOI below.
 Citation metadata are provided in [CITATION.cff](CITATION.cff).
 
 Repository: https://github.com/hiiiy-pm/matched-gate-reaction-corrections
 
-No repository DOI has been assigned. The manuscript and its mathematical
+Permanent archive (version 1.0.0): https://doi.org/10.5281/zenodo.23610581
+
+The manuscript and its mathematical
 Supplemental Material are submitted to the journal separately.
 
 ## Contents
@@ -39,8 +41,9 @@ git clone https://github.com/hiiiy-pm/matched-gate-reaction-corrections.git
 cd matched-gate-reaction-corrections
 ```
 
-To retrieve the exact submission version, check out the full Git commit cited
-in the manuscript, or download the archive for that commit from GitHub.
+To retrieve the exact submission version, check out commit
+`3290a54ed7f2e9433ffc507daae294784c7f8efd`, or download the archive
+from https://doi.org/10.5281/zenodo.23610581.
 
 ## Reproduce the core results
 

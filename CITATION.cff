@@ -15,7 +15,8 @@ authors:
 version: 1.0.0
 date-released: '2026-10-24'
 repository-code: 'https://github.com/hiiiy-pm/matched-gate-reaction-corrections'
-url: 'https://github.com/hiiiy-pm/matched-gate-reaction-corrections'
+url: 'https://doi.org/10.5281/zenodo.23610581'
+doi: '10.5281/zenodo.23610581'
 abstract: 'Exact gate models, continuous interval certificates, numerical solvers, source data, experimental-record analysis, and figures for the associated manuscript.'
 keywords:
   - stochastic processes
